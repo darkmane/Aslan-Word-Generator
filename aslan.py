@@ -1,6 +1,6 @@
 #Aslan.py
 #Aslan Word Generation for Classic Traveller
-# v1.1, February 13, 2017
+# v1.2, February 18, 2017
 # This is open source code, feel free to use it for any purpose
 # contact the author at golan2072@gmail.com
 
@@ -22,24 +22,24 @@ filename="default"
 #set functions
 
 #Die-rolling function
-def dice(n,sides):
+def dice(n,sides): #Input number of dice, sides per die
 	die=0
 	roll=0
 	while die<n:
 		roll=roll+random.randint(1,sides)
 		die+=1
-	return roll
+	return roll #Output die roll result
 
 #Simple yes or no prompt filtering invalid results
 def yn():
 	query = 1
 	while query == 1:
 		answer = input("Y/N: ")
-		if answer == "Y" or answer == "y":
+		if answer in ["y", "Y"]:
 			return "y"
 			query = 0
-		if answer == "N" or answer == "n":
-			return "n"
+		if answer in ["y", "Y"]:
+			return "n" #Output: "y" or "n"
 			query = 0
 		else:
 			print ("Invalid Answer")
@@ -48,7 +48,6 @@ def yn():
 def savefile():
 	filename=str(input("Please enter file name to generate: "))
 	directory=os.listdir(".\\") #Check if file already exists
-	print (directory)
 	save=1
 	filecheck=filename+".txt"
 	if filecheck in directory: #Overwrite query
@@ -61,7 +60,7 @@ def savefile():
 				break
 			if overwrite == "n":
 				filename=input("Please enter new file name to generate: ")
-	return filename
+	return filename #Output: file name
 	
 #consonant generation functions
 def con1():
@@ -70,7 +69,7 @@ def con1():
     con=""
     roll1=dice(1,6)
     roll2=dice(1,6)
-    if roll1==1 or roll1==2:
+    if roll1 in [1,2]:
         con="f"
     if roll1==3:
         con="ft"
@@ -116,13 +115,13 @@ def con3():
     con=""
     roll1=dice(1,6)
     roll2=dice(1,6)
-    if roll1==1 or roll1==2:
+    if roll1 in [1, 2]:
         con="ht"
     if roll1==3 and roll2<=5:
         con="hw"
     if roll1==3 and roll2==6:
         con="k"
-    if roll1==4 or roll1==5:
+    if roll1 in [4, 5]:
         con="k"
     if roll1==6 and roll2<=4:
         con="k"
@@ -136,9 +135,9 @@ def con4():
     con=""
     roll1=dice(1,6)
     roll2=dice(1,6)
-    if roll1==1 or roll1==2:
+    if roll1 in [1,2]:
         con="kh"
-    if roll1==3 or roll1==4:
+    if roll1 in [3, 4]:
         con="kht"
     if roll1==5:
         con="kt"
@@ -196,7 +195,7 @@ def con6():
         con="tr"
     if roll1==4 and roll2>=4:
         con="w"
-    if roll1==5 or roll1==6:
+    if roll1 in [5, 6]:
         con="w"
     return con
 
@@ -272,7 +271,7 @@ def vow4():
         roll2=dice(1,6)
         if roll1==1:
                 vow="ea"
-        if roll1==2 or roll1==3:
+        if roll1 in [2,3]:
                 vow="ei"
         if roll1==4 and roll2==1:
                 vow="ei"
@@ -385,7 +384,7 @@ def fin2():
                 fin="h"
         if roll1==2 and roll2>=5:
                 fin="kh"
-        if roll1==3 or roll1==4:
+        if roll1 in [3,4]:
                 fin="kh"
         if roll1==5 and roll2<=4:
                 fin="kh"
@@ -502,7 +501,7 @@ def wordgen():
                     tag=0
                     roll1=dice(1,6)
                     roll2=dice(1,6)
-                    if roll1==1 or roll1==2:
+                    if roll1 in [1,2]:
                             syl=vowel()
                             tag=1
                     if roll1==3 and roll2==1:
@@ -536,7 +535,7 @@ def wordgen():
                     tag=0
                     roll1=dice(1,6)
                     roll2=dice(1,6)
-                    if roll1==1 or roll1==2:
+                    if roll1 in [1, 2]:
                             syl=vowel()
                     if roll1==3 and roll2<=3:
                             syl=vowel()
@@ -582,13 +581,13 @@ while menu == 1: #Program will always return to the menu unless exited
 		print ("")
 		print("Invalid Input")
 		print ("")
-	if choice==1 or choice=="1": #Generate one word
+	if choice in [1, "1"]: #Generate one word
 		print ("")
 		print(wordgen())
 		print ("")
 		print ("Press any key to continue")
 		input()
-	if choice==2 or choice=="2": #Generate multiple words
+	if choice in [2, "2"]: #Generate multiple words
 		print ("")
 		num=int(input("Please enter the number of words you wish to generate: "))
 		print ("")
@@ -598,7 +597,7 @@ while menu == 1: #Program will always return to the menu unless exited
 		print ("")
 		print ("Press any key to continue")
 		input()
-	if choice==3 or choice=="3": #Generate multiple worlds to a file
+	if choice in [3, "3"]: #Generate multiple worlds to a file
 		name=savefile()
 		outp=open(name + ".txt","w")
 		num=int(input("Please enter the number of words you wish to generate: "))
@@ -613,13 +612,13 @@ while menu == 1: #Program will always return to the menu unless exited
 		print ("")
 		print ("Press any key to continue")
 		input()
-	if choice==4 or choice=="4": #Displays program information
+	if choice in [4, "4"]: #Displays program information
 		print ("")
 		print("Aslan Word Generation for Classic Traveller")
-		print("v1.1, February 13, 2017")
+		print("v1.2, February 18, 2017")
 		print("This is open source code, feel free to use it for any purpose")
 		print("contact the author at golan2072@gmail.com")
-	if choice==5 or choice=="5": #exit
+	if choice in [5, "5"]: #exit
 		menu=0
 		break
 		
