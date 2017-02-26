@@ -1,6 +1,6 @@
-#Aslan.py
-#Aslan Word Generation for Classic Traveller
-# v1.2, February 18, 2017
+#Wordgen.py
+#Word Generation for Classic Traveller
+# v1.3, February 27, 2017
 # This is open source code, feel free to use it for any purpose
 # contact the author at golan2072@gmail.com
 
@@ -8,6 +8,7 @@
 import random
 import string
 import os
+import argparse
 
 #initialize global variables
 length=1
@@ -20,6 +21,8 @@ tag=0
 filename="default"
 
 #set functions
+
+
 
 #Die-rolling function
 def dice(n,sides): #Input number of dice, sides per die
@@ -562,63 +565,75 @@ def wordgen():
 #    word=""
 # outp.close()
 
-#New program body from 2017
-menu=1
-while menu == 1: #Program will always return to the menu unless exited
-	os.system('cls')
-	print ("")
-	print ("Welcome to the Aslan Word Generator v1.0")
-	print ("========================================")
-	print ("Please choose an option:")
-	print ("1 - Generate a single word")
-	print ("2 - Generate multiple words")
-	print ("3 - Generate a file with multiple words")
-	print ("4 - About")
-	print ("5 - Exit Program")
-	print ("========================================")
-	choice=input("Please enter your choice: ")
-	if choice != 1 and choice != "1" and choice != 2 and choice != "2" and choice != 3 and choice != "3" and choice !=4 and choice != "4" and choice != 5 and choice != "5": #Upon inappropriate input
-		print ("")
-		print("Invalid Input")
-		print ("")
-	if choice in [1, "1"]: #Generate one word
-		print ("")
-		print(wordgen())
-		print ("")
-		print ("Press any key to continue")
-		input()
-	if choice in [2, "2"]: #Generate multiple words
-		print ("")
-		num=int(input("Please enter the number of words you wish to generate: "))
-		print ("")
-		while num >= count:
-			print(wordgen())
-			count=count+1
-		print ("")
-		print ("Press any key to continue")
-		input()
-	if choice in [3, "3"]: #Generate multiple worlds to a file
-		name=savefile()
-		outp=open(name + ".txt","w")
-		num=int(input("Please enter the number of words you wish to generate: "))
-		while num >= count:
-			word=wordgen()
-			outp.write(word+'\r\n')
-			count=count+1
-			word=""
-		outp.close()
-		print ("")
-		print ("File generated.")
-		print ("")
-		print ("Press any key to continue")
-		input()
-	if choice in [4, "4"]: #Displays program information
-		print ("")
-		print("Aslan Word Generation for Classic Traveller")
-		print("v1.2, February 18, 2017")
-		print("This is open source code, feel free to use it for any purpose")
-		print("contact the author at golan2072@gmail.com")
-	if choice in [5, "5"]: #exit
-		menu=0
-		break
-		
+def interactive:
+    #New program body from 2017
+    menu=1
+    while menu == 1: #Program will always return to the menu unless exited
+        os.system('cls')
+        print ("")
+        print ("Welcome to the Aslan Word Generator v1.0")
+        print ("========================================")
+        print ("Please choose an option:")
+        print ("1 - Generate a single word")
+        print ("2 - Generate multiple words")
+        print ("3 - Generate a file with multiple words")
+        print ("4 - About")
+        print ("5 - Exit Program")
+        print ("========================================")
+        choice=input("Please enter your choice: ")
+        if choice != 1 and choice != "1" and choice != 2 and choice != "2" and choice != 3 and choice != "3" and choice !=4 and choice != "4" and choice != 5 and choice != "5": #Upon inappropriate input
+            print ("")
+            print("Invalid Input")
+            print ("")
+        if choice in [1, "1"]: #Generate one word
+            print ("")
+            print(wordgen())
+            print ("")
+            print ("Press any key to continue")
+            input()
+        if choice in [2, "2"]: #Generate multiple words
+            print ("")
+            num=int(input("Please enter the number of words you wish to generate: "))
+            print ("")
+            while num >= count:
+                print(wordgen())
+                count=count+1
+            print ("")
+            print ("Press any key to continue")
+            input()
+        if choice in [3, "3"]: #Generate multiple worlds to a file
+            name=savefile()
+            outp=open(name + ".txt","w")
+            num=int(input("Please enter the number of words you wish to generate: "))
+            while num >= count:
+                word=wordgen()
+                outp.write(word+'\r\n')
+                count=count+1
+                word=""
+            outp.close()
+            print ("")
+            print ("File generated.")
+            print ("")
+            print ("Press any key to continue")
+            input()
+        if choice in [4, "4"]: #Displays program information
+            print ("")
+            print("Aslan Word Generation for Classic Traveller")
+            print("v1.2, February 18, 2017")
+            print("This is open source code, feel free to use it for any purpose")
+            print("contact the author at golan2072@gmail.com")
+        if choice in [5, "5"]: #exit
+            menu=0
+            break
+
+if __name__ == "__main__":
+    import argparser
+    parser = argparse.ArgumentParser(description='Generate alien words')
+
+    parser.add_argument('--language', '-l', type=str)
+    parser.add_argument('--input', '-i', type=str)
+    parser.add_argument('--output', '-o', type=str)
+    parser.add_argument('--wordcount', '-w', type=int)
+    parser.add_argument('--interactive', '-I', type=bool)
+
+

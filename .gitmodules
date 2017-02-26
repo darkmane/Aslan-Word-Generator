@@ -1,0 +1,3 @@
+[submodule "traveller_data"]
+	path = traveller_data
+	url = git@github.com:darkmane/traveller_data.git
