@@ -42,7 +42,7 @@ class WordGenTable:
 
         self.__lang = language
         file_path = (PATH) % (language)
-        print file_path
+        
         with open(file_path) as data_file:
             data= json.load(data_file)
             self.data_table = data['data']
@@ -255,11 +255,7 @@ if __name__ == "__main__":
     parser.add_argument('--wordcount', '-w', type=int, default=1)
     parser.add_argument('--interactive', '-I', action='store_true')
     
-    parser.print_usage()
-    
     args = parser.parse_args()
-
-    print args
 
     if args.interactive:
         interactive()
