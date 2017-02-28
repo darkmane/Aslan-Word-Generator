@@ -9,7 +9,8 @@
 import random
 import string
 import os
-import argparse
+import sys
+#import argparse
 import json
 
 #initialize global variables
@@ -30,19 +31,21 @@ ZHODANI="am4/21.json"
 DROYNE="am5/41.json"
 DARRIAN="am8/31.json"
 LANGUAGE_LIST = [ASLAN, KKREE, VARGR, ZHODANI, DROYNE, DARRIAN]
+LANGUAGE_DICT = {'aslan': ASLAN, 'kkree': KKREE, 'vargr': VARGR, 'zhodani': ZHODANI, 'droyne':DROYNE, 'darrian':DARRIAN}
 
 
 class WordGenTable:
     def __init__(self, language):
         self.data_table = []
-        if !(language in LANGUAGE_LIST):
-            throw new Exception('Invalid language')
+        if language not in LANGUAGE_LIST:
+            raise Exception('Invalid language')
 
         self.__lang = language
         file_path = (PATH) % (language)
         print file_path
-        with open(file_path) as data_file
-            self.data_table = data_file['data']
+        with open(file_path) as data_file:
+            data= json.load(data_file)
+            self.data_table = data['data']
 
     def language(self):
         language = ''
@@ -53,7 +56,7 @@ class WordGenTable:
             language = 'K\'kree'
         if self.__lang == VARGR:
             language = 'Vargr'
-        if self.__lang == ZHODANI
+        if self.__lang == ZHODANI:
             language = 'Zhodani'
         if self.__lang == DROYNE:
             language = 'Droyne'
@@ -63,51 +66,52 @@ class WordGenTable:
         return language
 
 
-    def generate_word:
+    def generate_word(self):
         num_syllables = random.randint(1,6)
         word = ''
         syllable_count = 0
-        syllable_func = basic_syllable
+        syllable_func = self.basic_syllable
 
-        for syllable_count++ < num_syllables:
-            d1 = random.randint(1,6)
-            d2 = random.randint(1,6)
+        for syllable_count in range(0, num_syllables):
+            d1 = random.randint(0,5)
+            d2 = random.randint(0,5)
             syllable_pattern = syllable_func(d1, d2)
-            if syllable_pattern[len(syllable_pattern) -1] = 'V':
-                syllable_func = basic_syllable
+            if syllable_pattern[len(syllable_pattern) -1] == 'V':
+                syllable_func = self.basic_syllable
             else:
-                syllable_fun = alternate_syllable
+                syllable_fun = self.alternate_syllable
 
-            consonant = initial_consonant
+            consonant = self.initial_consonant
             phoneme_counter = 0
             while phoneme_counter < len(syllable_pattern):
-                d1 = random.randint(1, 6)
-                d2 = random.randint(1, 6)
-                d3 = random.randint(1, 6)
-                if syllable_pattern[phoneme_counter] = 'V':
-                    word = ''.join([word, vowel(d1, d2, d3)])
+                d1 = random.randint(0, 5)
+                d2 = random.randint(0, 5)
+                d3 = random.randint(0, 5)
+                if syllable_pattern[phoneme_counter] == 'V':
+                    word = ''.join([word, self.vowel(d1, d2, d3)])
                 else:
                     word = ''.join([word, consonant(d1, d2, d3)])
 
-                consonant = final_consonant
-
+                consonant = self.final_consonant
+                phoneme_counter += 1
+            syllable_count += 1
         return word
 
                 
 
-    def basic_syllable(d1, d2):
+    def basic_syllable(self, d1, d2):
         return self.data_table['syllables']['basic'][d1][d2]
 
-    def alternate_syllable(d1, d2):
+    def alternate_syllable(self, d1, d2):
         return self.data_table['syllables']['alternate'][d1][d2]
 
-    def initial_consonant(d1, d2, d3):
+    def initial_consonant(self, d1, d2, d3):
         return self.data_table['phonemes']['initial_consonant'][d1][d2][d3]
 
-    def vowel(d1, d2, d3):
+    def vowel(self, d1, d2, d3):
         return self.data_table['phonemes']['vowel'][d1][d2][d3]
 
-    def final_consonant(d1, d2, d3):
+    def final_consonant(self, d1, d2, d3):
         return self.data_table['phonemes']['final_consonant'][d1][d2][d3]
 
 
@@ -145,8 +149,8 @@ def savefile():
 				filename=input("Please enter new file name to generate: ")
 	return filename #Output: file name
 
-def interactive:
-    word_gen_table = new WordGenTable(ASLAN)
+def interactive():
+    word_gen_table = WordGenTable(ASLAN)
     #New program body from 2017
     menu=1
     while menu == 1: #Program will always return to the menu unless exited
@@ -236,19 +240,49 @@ def interactive:
             print("Word Generation for Classic Traveller")
             print("v1.3, February 27, 2017")
             print("This is open source code, feel free to use it for any purpose")
-            print("contact the author at darkmane@gmail.com")
+            print("contact the author at golan2072@gmail.com")
         if choice == 6: #exit
             menu=0
             break
 
 if __name__ == "__main__":
-    import argparser
+    import argparse
     parser = argparse.ArgumentParser(description='Generate alien words')
 
-    parser.add_argument('--language', '-l', type=str)
-    parser.add_argument('--input', '-i', type=str)
-    parser.add_argument('--output', '-o', type=str)
-    parser.add_argument('--wordcount', '-w', type=int)
-    parser.add_argument('--interactive', '-I', type=bool)
+    parser.add_argument('--language', '-l', choices=['aslan', 'kkree', 'vargr', 'zhodani', 'droyne', 'darrian'], type=str, default='aslan')
+    parser.add_argument('--input', '-i', type=argparse.FileType('r'), help='Input file')
+    parser.add_argument('--output', '-o', type=argparse.FileType('w'), help='Output file', default=sys.stdout)
+    parser.add_argument('--wordcount', '-w', type=int, default=1)
+    parser.add_argument('--interactive', '-I', action='store_true')
+    
+    parser.print_usage()
+    
+    args = parser.parse_args()
+
+    print args
+
+    if args.interactive:
+        interactive()
+    else:
+       wgt = WordGenTable(LANGUAGE_DICT[args.language])
+
+       counter = 0
+       wordcount = args.wordcount
+       word_list = []
+
+       if args.input is not None:
+           with args.input as input_file:
+               word_list = input_file.readlines()
+    
+       if len(word_list) > 0:
+           wordcount = len(word_list)
+
+       #with open(args.output) as output_file:
+       with args.output as output_file:
+           for counter in range(0, wordcount):
+               if len(word_list) == 0:
+                   output_file.write(wgt.generate_word() + '\n')
+               else:
+                   output_file.write(word_list[counter].strip('\n') + ", " + wgt.generate_word() + '\n')
 
 
