@@ -1,0 +1,176 @@
+{
+  "title": "Zhodani Word Generation",
+  "data": {
+    "syllables": {
+      "basic": [
+        [    "V",    "V",    "V",   "CV",   "CV",   "CV" ],
+        [   "VC",   "VC",   "VC",   "VC",   "VC",   "VC" ],
+        [   "VC",   "VC",   "VC",  "CVC",  "CVC",  "CVC" ],
+        [  "CVC",  "CVC",  "CVC",  "CVC",  "CVC",  "CVC" ],
+        [  "CVC",  "CVC",  "CVC",  "CVC",  "CVC",  "CVC" ],
+        [  "CVC",  "CVC",  "CVC",  "CVC",  "CVC",  "CVC" ]
+      ],
+      "alternate": [
+        [    "V",    "V",    "V",    "V",    "V",    "V" ],
+        [   "CV",   "CV",   "CV",   "CV",   "CV",   "CV" ],
+        [   "VC",   "VC",   "VC",   "VC",   "VC",   "VC" ],
+        [  "CVC",  "CVC",  "CVC",  "CVC",  "CVC",  "CVC" ],
+        [  "CVC",  "CVC",  "CVC",  "CVC",  "CVC",  "CVC" ],
+        [  "CVC",  "CVC",  "CVC",  "CVC",  "CVC",  "CVC" ]
+      ]
+    },
+    "phonemes": {
+      "initial_consonant": [
+        [
+          [    "B",    "B",    "B",    "B",    "B",   "BL" ],
+          [   "BL",   "BL",   "BR",   "BR",   "BR",   "BR" ],
+          [   "BR",   "CH",   "CH",   "CH",   "CH",   "CH" ],
+          [   "CH",   "CH",   "CH",   "CH",   "CH",   "CH" ],
+          [   "CH",  "CHT",  "CHT",  "CHT",  "CHT",  "CHT" ],
+          [  "CHT",  "CHT",    "D",    "D",    "D",    "D" ]
+        ],
+        [
+          [    "D",    "D",    "D",    "D",    "D",   "DL" ],
+          [   "DL",   "DL",   "DL",   "DL",   "DL",   "DL" ],
+          [   "DR",   "DR",   "DR",   "DR",   "DR",    "F" ],
+          [    "F",    "F",    "F",    "F",   "FL",   "FL" ],
+          [   "FL",   "FR",   "FR",   "FR",    "J",    "J" ],
+          [    "J",    "J",    "J",    "J",    "J",   "JD" ]
+        ],
+        [
+          [   "JD",   "JD",   "JD",   "JD",    "K",    "K" ],
+          [    "K",    "K",    "K",   "KL",   "KL",   "KR" ],
+          [   "KR",    "L",    "L",    "L",    "M",    "M" ],
+          [    "N",    "N",    "N",    "N",    "N",    "N" ],
+          [    "N",    "N",    "P",    "P",    "P",    "P" ],
+          [    "P",    "P",    "P",   "PL",   "PL",   "PL" ]
+        ],
+        [
+          [   "PL",   "PL",   "PL",   "PL",   "PR",   "PR" ],
+          [   "PR",    "Q",    "Q",   "QL",   "QL",   "QR" ],
+          [   "QR",    "R",    "R",    "R",    "R",    "R" ],
+          [    "S",    "S",    "S",    "S",    "S",    "S" ],
+          [    "S",   "SH",   "SH",   "SH",   "SH",   "SH" ],
+          [   "SH",   "SH",  "SHT",  "SHT",  "SHT",  "SHT" ]
+        ],
+        [
+          [  "SHT",  "SHT",  "SHT",    "T",    "T",    "T" ],
+          [    "T",    "T",   "ST",   "ST",   "ST",   "ST" ],
+          [   "ST",   "ST",   "ST",   "TL",   "TL",   "TL" ],
+          [   "TL",   "TL",   "TL",   "TL",   "TL",   "TL" ],
+          [   "TL",   "TS",   "TS",   "TS",    "V",    "V" ],
+          [    "V",    "V",    "V",   "VL",   "VL",   "VR" ]
+        ],
+        [
+          [   "VR",    "Y",    "Y",    "Y",    "Z",    "Z" ],
+          [    "Z",    "Z",    "Z",   "ZD",   "ZD",   "ZD" ],
+          [   "ZD",   "ZD",   "ZD",   "ZD",   "ZD",   "ZD" ],
+          [   "ZD",   "ZH",   "ZH",   "ZH",   "ZH",   "ZH" ],
+          [   "ZH",   "ZH",  "ZHD",  "ZHD",  "ZHD",  "ZHD" ],
+          [  "ZHD",  "ZHD",  "ZHD",  "ZHD",  "ZHD",  "ZHD" ]
+        ]
+      ],
+      "vowel": [
+        [
+          [    "A",    "A",    "A",    "A",    "A",    "A" ],
+          [    "A",    "A",    "A",    "A",    "A",    "A" ],
+          [    "A",    "A",    "A",    "A",    "A",    "A" ],
+          [    "A",    "A",    "A",    "A",    "A",    "A" ],
+          [    "A",    "A",    "A",    "A",    "A",    "A" ],
+          [    "A",    "A",    "A",    "A",    "A",    "A" ]
+        ],
+        [
+          [    "A",    "A",    "A",    "A",    "A",    "A" ],
+          [    "A",    "A",    "A",    "A",    "A",    "A" ],
+          [    "A",    "E",    "E",    "E",    "E",    "E" ],
+          [    "E",    "E",    "E",    "E",    "E",    "E" ],
+          [    "E",    "E",    "E",    "E",    "E",    "E" ],
+          [    "E",    "E",    "E",    "E",    "E",    "E" ]
+        ],
+        [
+          [    "E",    "E",    "E",    "E",    "E",    "E" ],
+          [    "E",    "E",    "E",    "E",    "E",    "E" ],
+          [    "E",    "E",    "E",    "E",    "E",    "E" ],
+          [    "E",    "E",    "E",    "E",    "E",    "E" ],
+          [    "E",    "E",    "E",    "E",    "E",    "E" ],
+          [    "E",    "E",    "E",    "I",    "I",    "I" ]
+        ],
+        [
+          [    "I",    "I",    "I",    "I",    "I",    "I" ],
+          [    "I",    "I",    "I",    "I",    "I",    "I" ],
+          [    "I",    "I",    "I",    "I",    "I",    "I" ],
+          [    "I",    "I",    "I",    "I",    "I",    "I" ],
+          [    "I",    "I",    "I",    "I",    "I",    "I" ],
+          [    "I",    "I",   "IA",   "IA",   "IA",   "IA" ]
+        ],
+        [
+          [   "IA",   "IA",   "IA",   "IA",   "IA",   "IA" ],
+          [   "IA",   "IA",   "IA",   "IA",   "IA",   "IA" ],
+          [   "IA",   "IA",   "IA",   "IA",   "IA",   "IA" ],
+          [   "IA",   "IA",   "IA",   "IA",   "IA",   "IA" ],
+          [   "IE",   "IE",   "IE",   "IE",   "IE",   "IE" ],
+          [   "IE",   "IE",   "IE",   "IE",   "IE",   "IE" ]
+        ],
+        [
+          [   "IE",   "IE",   "IE",   "IE",   "IE",   "IE" ],
+          [   "IE",   "IE",   "IE",   "IE",   "IE",   "IE" ],
+          [   "IE",   "IE",   "IE",   "IE",    "O",    "O" ],
+          [    "O",    "O",    "O",    "O",    "O",    "O" ],
+          [    "O",    "O",    "O",    "O",    "O",    "O" ],
+          [    "R",    "R",    "R",    "R",    "R",    "R" ]
+        ]
+      ],
+      "final_consonant": [
+        [
+          [    "B",    "B",   "BL",   "BL",   "BL",   "BL" ],
+          [   "BL",   "BL",   "BL",   "BR",   "BR",   "BR" ],
+          [   "BR",   "BR",   "BR",   "BR",   "CH",   "CH" ],
+          [   "CH",   "CH",   "CH",    "D",    "D",    "D" ],
+          [    "D",   "DL",   "DL",   "DL",   "DL",   "DL" ],
+          [   "DL",   "DL",   "DR",   "DR",   "DR",   "DR" ]
+        ],
+        [
+          [   "DR",   "DR",   "DR",    "F",    "F",    "F" ],
+          [    "F",    "F",   "FL",   "FL",   "FL",   "FL" ],
+          [   "FL",   "FR",   "FR",   "FR",   "FR",   "FR" ],
+          [    "J",    "J",    "J",    "J",    "K",    "K" ],
+          [   "KL",   "KL",   "KL",   "KL",   "KR",   "KR" ],
+          [    "L",    "L",    "L",    "L",    "L",    "L" ]
+        ],
+        [
+          [    "L",    "L",    "L",    "L",    "L",    "L" ],
+          [    "M",    "M",    "N",    "N",  "NCH",  "NCH" ],
+          [  "NCH",  "NCH",  "NCH",  "NCH",  "NCH",   "NJ" ],
+          [   "NJ",   "NJ",   "NJ",   "NJ",   "NS",   "NS" ],
+          [   "NS",   "NS",   "NS",  "NSH",  "NSH",  "NSH" ],
+          [  "NSH",  "NSH",  "NSH",  "NSH",   "NT",   "NT" ]
+        ],
+        [
+          [   "NT",   "NT",  "NTS",  "NTS",  "NTS",  "NTS" ],
+          [   "NZ",   "NZ",   "NZ",   "NZ",   "NZ",  "NZH" ],
+          [  "NZH",  "NZH",  "NZH",  "NZH",  "NZH",  "NZH" ],
+          [    "P",    "P",   "PL",   "PL",   "PL",   "PL" ],
+          [   "PL",   "PL",   "PL",   "PR",   "PR",   "PR" ],
+          [   "PR",   "PR",   "PR",   "PR",    "Q",    "Q" ]
+        ],
+        [
+          [   "QL",   "QL",   "QR",   "QR",    "R",    "R" ],
+          [    "R",    "R",    "R",   "SH",   "SH",   "SH" ],
+          [   "SH",   "SH",   "SH",   "SH",    "T",    "T" ],
+          [    "T",    "T",   "TS",   "TS",   "TS",   "TS" ],
+          [   "TS",   "TS",   "TS",   "TL",   "TL",   "TL" ],
+          [   "TL",   "TL",   "TL",   "TL",   "TL",   "TL" ]
+        ],
+        [
+          [    "V",    "V",    "V",    "V",    "V",   "VL" ],
+          [   "VL",   "VL",   "VL",   "VR",   "VR",   "VR" ],
+          [   "VR",   "VR",    "Z",    "Z",    "Z",    "Z" ],
+          [    "Z",    "Z",    "Z",    "Z",    "Z",   "ZH" ],
+          [   "ZH",   "ZH",   "ZH",   "ZH",   "ZH",   "ZH" ],
+          [    "'",    "'",    "'",    "'",    "'",    "'" ]
+        ]
+      ]
+    }
+
+  }
+}

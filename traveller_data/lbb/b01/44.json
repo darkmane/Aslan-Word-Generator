@@ -1,0 +1,225 @@
+{
+  "title": "Weapons and Equipment",
+  "data": {
+    "weapons": {
+      "Dagger": {
+        "weight": 250,
+        "length": 200,
+        "price": 10
+      },
+      "Blade": {
+        "weight": 350,
+        "length": 300,
+        "price": 50
+      },
+      "Foil": {
+        "weight": 500,
+        "length": 800,
+        "price": 100
+      },
+      "Cutlass": {
+        "weight": 1250,
+        "length": 800,
+        "price": 100
+      },
+      "Sword": {
+        "weight": 1000,
+        "length": 800,
+        "price": 150
+      },
+      "Broadsword": {
+        "weight": 2500,
+        "length": 1200,
+        "price": 300
+      },
+      "Bayonet": {
+        "weight": 250,
+        "length": 200,
+        "price": 10
+      },
+      "Spear": {
+        "weight": 2000,
+        "length": 3000,
+        "price": 10
+      },
+      "Halberd": {
+        "weight": 2500,
+        "length": 2500,
+        "price": 75
+      },
+      "Pike": {
+        "weight": 3000,
+        "length": 4000,
+        "price": 40
+      },
+      "Cudgel": {
+        "weight": 1000,
+        "length": 1500,
+        "price": 10
+      },
+      "Body Pistol": {
+        "weight": 250,
+        "length": 100,
+        "price": 500,
+        "ammo": {
+          "weight": 50,
+          "rounds": 6,
+          "price": 20
+        }
+      },
+      "Automatic Pistol": {
+        "weight": 750,
+        "length": 175,
+        "price": 200,
+        "ammo": {
+          "weight": 250,
+          "rounds": 15,
+          "price": 10
+        }
+      },
+      "Revolver": {
+        "weight": 900,
+        "length": 200,
+        "price": 150,
+        "ammo": {
+          "weight": 100,
+          "rounds": 6,
+          "price": 5
+        }
+      },
+      "Carbine": {
+        "weight": 3000,
+        "length": 750,
+        "price": 200,
+        "ammo": {
+          "weight": 125,
+          "rounds": 10,
+          "price": 10
+        }
+      },
+      "Rifle": {
+        "weight": 4000,
+        "length": 1000,
+        "price": 200,
+        "ammo": {
+          "weight": 500,
+          "rounds": 20,
+          "price": 20
+        }
+      },
+      "Automatic Rifle": {
+        "weight": 5000,
+        "length": 1000,
+        "price": 1000,
+        "ammo": {
+          "weight": 500,
+          "rounds": 20,
+          "price": 20
+        }
+      },
+      "Shotgun": {
+        "weight": 3750,
+        "length": 1000,
+        "price": 150,
+        "ammo": {
+          "weight": 750,
+          "rounds": 10,
+          "price": 10
+        }
+      },
+      "Submachinegun": {
+        "weight": 2500,
+        "length": 450,
+        "price": 500,
+        "ammo": {
+          "weight": 500,
+          "rounds": 30,
+          "price": 20
+        }
+      },
+      "Laser Carbine": {
+        "weight": 5000,
+        "length": 800,
+        "price": 2500
+      },
+      "LC Power Pack": {
+        "weight": 3000,
+        "price": 1000,
+        "ammo": {
+          "rounds": 50,
+          "price": 200
+        }
+      },
+      "Laser Rifle": {
+        "weight": 6000,
+        "length": 1000,
+        "price": 3500
+      },
+      "LR Power Pack": {
+        "weight": 4000,
+        "price": 1500,
+        "ammo": {
+          "rounds": 100,
+          "price": 300
+        }
+      },
+      "Telescopic Sights": {
+        "weight": 800,
+        "price": 200
+      },
+      "Electronic Sights": {
+        "weight": 1500,
+        "price": 2000
+      },
+      "Silencer": {
+        "weight": 600,
+        "length": 200,
+        "price": 200
+      },
+      "Shoulder Stock": {
+        "weight": 1000,
+        "length": 350,
+        "price": 75
+      },
+      "Folding Stock": {
+        "weight": 500,
+        "length": 300,
+        "price": 100
+      }
+    },
+    "armor": {
+      "jack": {
+        "price": 50,
+        "description": "Leather or synthetic jacket/body suit"
+      },
+      "mesh": {
+        "price": 150,
+        "description": "Leather or synthetic, reinforced metal mesh jacket"
+      },
+      "cloth": {
+        "price": 250,
+        "description": "Ballistic cloth (bullet proof) jacket "
+      },
+      "reflec": {
+        "price": 1500,
+        "description": "Reflective body suit, usually worn underneath"
+      },
+      "ablat": {
+        "price": 75,
+        "description": "Ablative (vaporizing anti-laser) jacket "
+      },
+      "vacc suit": {
+        "price": 10000,
+        "description": "Vacuum protective suit and helmet"
+      },
+      "combat armor": {
+        "price": 20000,
+        "description": "Personal protective armor"
+      },
+      "battle dress": {
+        "price": 200000,
+        "description": "Powered personal protective armor"
+      }
+    }
+  }
+}

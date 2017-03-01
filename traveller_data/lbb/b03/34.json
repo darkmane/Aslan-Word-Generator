@@ -1,0 +1,95 @@
+{
+  "title": "Animal Characteristics",
+  "data": {
+    "filter": {
+      "to_attack": "possible",
+      "to_flee": "1D+2",
+      "speed": "1D-5",
+      "min_speed": 0
+    },
+    "intermittend": {
+      "to_attack": "1D+3",
+      "to_flee": "1D+3",
+      "speed": "1D-4",
+      "min_speed": 1
+    },
+    "grazer": {
+      "to_attack": "1D+2",
+      "to_flee": "1D+0",
+      "speed": "1D-2",
+      "min_speed": 2
+    },
+    "gatherer": {
+      "to_attack": "1D+3",
+      "to_flee": "1D+2",
+      "speed": "1D-3",
+      "min_speed": 1
+    },
+    "hunter": {
+      "to_attack": "1D",
+      "to_flee": "1D+2",
+      "speed": "1D-4",
+      "min_speed": 1
+    },
+    "eater": {
+      "to_attack": "1D",
+      "to_flee": "1D+3",
+      "speed": "1D-3",
+      "min_speed": 1
+    },
+    "pouncer": {
+      "to_attack": "surprised",
+      "to_flee": "surprised",
+      "speed": "1D-4",
+      "min_speed": 1
+    },
+    "chaser": {
+      "to_attack": "if more",
+      "to_flee": "1D+3",
+      "speed": "1D-2",
+      "min_speed": 2
+    },
+    "trapper": {
+      "to_attack": "surprised",
+      "to_flee": "1D+2",
+      "speed": "1D-5",
+      "min_speed": 0
+    },
+    "siren": {
+      "to_attack": "surprised",
+      "to_flee": "1D+3",
+      "speed": "1D-4",
+      "min_speed": 0
+    },
+    "killer": {
+      "to_attack": "1D",
+      "to_flee": "1D+3",
+      "speed": "1D-3",
+      "min_speed": 1
+    },
+    "hijacker": {
+      "to_attack": "1D+1",
+      "to_flee": "1D+2",
+      "speed": "1D-4",
+      "min_speed": 1
+    },
+    "intimidator": {
+      "to_attack": "1D+2",
+      "to_flee": "1D+1",
+      "speed": "1D-4",
+      "min_speed": 1
+    },
+    "carrion-eater": {
+      "to_attack": "1D+3",
+      "to_flee": "1D+2",
+      "speed": "1D-3",
+      "min_speed": 1
+    },
+    "reducer": {
+      "to_attack": "1D+3",
+      "to_flee": "1D+2",
+      "speed": "1D-4",
+      "min_speed": 1
+    }
+  }
+}

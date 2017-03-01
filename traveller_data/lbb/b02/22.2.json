@@ -1,0 +1,299 @@
+{
+  "title": "Drives and Power Plants",
+  "data": {
+    "jump": {
+      "a": {
+        "mass": 10,
+        "cost_mcr": 10
+      },
+      "b": {
+        "mass": 15,
+        "cost_mcr": 20
+      },
+      "c": {
+        "mass": 20,
+        "cost_mcr": 30
+      },
+      "d": {
+        "mass": 25,
+        "cost_mcr": 40
+      },
+      "e": {
+        "mass": 30,
+        "cost_mcr": 50
+      },
+      "f": {
+        "mass": 35,
+        "cost_mcr": 60
+      },
+      "g": {
+        "mass": 40,
+        "cost_mcr": 70
+      },
+      "h": {
+        "mass": 45,
+        "cost_mcr": 80
+      },
+      "j": {
+        "mass": 50,
+        "cost_mcr": 90
+      },
+      "k": {
+        "mass": 55,
+        "cost_mcr": 100
+      },
+      "l": {
+        "mass": 60,
+        "cost_mcr": 110
+      },
+      "m": {
+        "mass": 65,
+        "cost_mcr": 120
+      },
+      "n": {
+        "mass": 70,
+        "cost_mcr": 130
+      },
+      "p": {
+        "mass": 75,
+        "cost_mcr": 140
+      },
+      "q": {
+        "mass": 80,
+        "cost_mcr": 150
+      },
+      "r": {
+        "mass": 85,
+        "cost_mcr": 160
+      },
+      "s": {
+        "mass": 90,
+        "cost_mcr": 170
+      },
+      "t": {
+        "mass": 95,
+        "cost_mcr": 180
+      },
+      "u": {
+        "mass": 100,
+        "cost_mcr": 190
+      },
+      "v": {
+        "mass": 105,
+        "cost_mcr": 200
+      },
+      "w": {
+        "mass": 110,
+        "cost_mcr": 210
+      },
+      "x": {
+        "mass": 115,
+        "cost_mcr": 220
+      },
+      "y": {
+        "mass": 120,
+        "cost_mcr": 230
+      },
+      "z": {
+        "mass": 125,
+        "cost_mcr": 240
+      }
+    },
+    "manuever": {
+      "a": {
+        "mass": 1,
+        "cost_mcr": 4
+      },
+      "b": {
+        "mass": 3,
+        "cost_mcr": 8
+      },
+      "c": {
+        "mass": 5,
+        "cost_mcr": 12
+      },
+      "d": {
+        "mass": 7,
+        "cost_mcr": 16
+      },
+      "e": {
+        "mass": 9,
+        "cost_mcr": 20
+      },
+      "f": {
+        "mass": 11,
+        "cost_mcr": 24
+      },
+      "g": {
+        "mass": 13,
+        "cost_mcr": 28
+      },
+      "h": {
+        "mass": 15,
+        "cost_mcr": 32
+      },
+      "j": {
+        "mass": 17,
+        "cost_mcr": 36
+      },
+      "k": {
+        "mass": 19,
+        "cost_mcr": 40
+      },
+      "l": {
+        "mass": 21,
+        "cost_mcr": 44
+      },
+      "m": {
+        "mass": 23,
+        "cost_mcr": 48
+      },
+      "n": {
+        "mass": 25,
+        "cost_mcr": 52
+      },
+      "p": {
+        "mass": 27,
+        "cost_mcr": 56
+      },
+      "q": {
+        "mass": 29,
+        "cost_mcr": 60
+      },
+      "r": {
+        "mass": 31,
+        "cost_mcr": 64
+      },
+      "s": {
+        "mass": 33,
+        "cost_mcr": 68
+      },
+      "t": {
+        "mass": 35,
+        "cost_mcr": 72
+      },
+      "u": {
+        "mass": 37,
+        "cost_mcr": 76
+      },
+      "v": {
+        "mass": 39,
+        "cost_mcr": 80
+      },
+      "w": {
+        "mass": 41,
+        "cost_mcr": 84
+      },
+      "x": {
+        "mass": 43,
+        "cost_mcr": 88
+      },
+      "y": {
+        "mass": 45,
+        "cost_mcr": 92
+      },
+      "z": {
+        "mass": 47,
+        "cost_mcr": 96
+      }
+    },
+    "power_plant": {
+      "a": {
+        "mass": 4,
+        "cost_mcr": 8
+      },
+      "b": {
+        "mass": 7,
+        "cost_mcr": 16
+      },
+      "c": {
+        "mass": 10,
+        "cost_mcr": 24
+      },
+      "d": {
+        "mass": 13,
+        "cost_mcr": 32
+      },
+      "e": {
+        "mass": 16,
+        "cost_mcr": 40
+      },
+      "f": {
+        "mass": 19,
+        "cost_mcr": 48
+      },
+      "g": {
+        "mass": 22,
+        "cost_mcr": 56
+      },
+      "h": {
+        "mass": 25,
+        "cost_mcr": 64
+      },
+      "j": {
+        "mass": 28,
+        "cost_mcr": 72
+      },
+      "k": {
+        "mass": 31,
+        "cost_mcr": 80
+      },
+      "l": {
+        "mass": 34,
+        "cost_mcr": 88
+      },
+      "m": {
+        "mass": 37,
+        "cost_mcr": 96
+      },
+      "n": {
+        "mass": 40,
+        "cost_mcr": 104
+      },
+      "p": {
+        "mass": 43,
+        "cost_mcr": 112
+      },
+      "q": {
+        "mass": 46,
+        "cost_mcr": 120
+      },
+      "r": {
+        "mass": 49,
+        "cost_mcr": 128
+      },
+      "s": {
+        "mass": 52,
+        "cost_mcr": 136
+      },
+      "t": {
+        "mass": 55,
+        "cost_mcr": 144
+      },
+      "u": {
+        "mass": 58,
+        "cost_mcr": 152
+      },
+      "v": {
+        "mass": 61,
+        "cost_mcr": 160
+      },
+      "w": {
+        "mass": 64,
+        "cost_mcr": 168
+      },
+      "x": {
+        "mass": 67,
+        "cost_mcr": 176
+      },
+      "y": {
+        "mass": 70,
+        "cost_mcr": 184
+      },
+      "z": {
+        "mass": 73,
+        "cost_mcr": 192
+      }
+    }
+  }
+}

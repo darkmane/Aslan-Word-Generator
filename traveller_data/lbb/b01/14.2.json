@@ -1,0 +1,38 @@
+{
+  "title": "Table of Ranks",
+  "data": {
+    "navy": [
+      "Ensign",
+      "Lieutenant",
+      "Lt Cmdr",
+      "Commander",
+      "Captain",
+      "Admiral"
+    ],
+    "marines": [
+      "Lieutenant",
+      "Captain",
+      "Force Cmdr",
+      "Lt Colonel",
+      "Colonel",
+      "Brigadier"
+    ],
+    "army": [
+      "Lieutenant",
+      "Captain",
+      "Major",
+      "Lt Colonel",
+      "Colonel",
+      "General"
+    ],
+    "scouts": [],
+    "merchant": [
+      "4th Officer",
+      "3rd Officer",
+      "2nd Officer",
+      "1st Officer",
+      "Captain"
+    ],
+    "other": []
+  }
+}

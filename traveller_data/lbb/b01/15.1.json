@@ -1,0 +1,41 @@
+{
+  "title": "Acquired Skills Tables",
+  "data": {
+    "navy": {
+      "Personal Development": ["+1 Str", "+1 Dex", "+1 End", "+1 Int", "+1 Edu", "+1 Soc"],
+      "Service Skills": ["Ship's Boat", "Vacc Suit", "Fwd Observer", "Gunnery", "Blade Cbt", "Gun Cbt"],
+      "Advanced Education": ["Vacc Suit", "Mechanical", "Electronic", "Engineering", "Gunnery", "JoT"],
+      "Advanced Education (edu 8+)": ["Medical", "Navigation", "Engineering", "Computer", "Pilot", "Admin"]
+    },
+    "marines": {
+      "Personal Development": ["+1 Str", "+1 Dex", "+1 End", "Gambling", "Brawling", "Blade Cbt"],
+      "Service Skills": ["Vehicle", "Vacc Suit", "Blade Cbt", "Gun Cbt", "Blade Cbt", "Gun Cbt"],
+      "Advanced Education": ["Vehicle", "Mechanical", "Electronic", "Tactics", "Blade Cbt", "Gun Cbt"],
+      "Advanced Education (edu 8+)": ["Medical", "Tactics", "Tactics", "Computer", "Leader", "Admin"]
+    },
+    "army": {
+      "Personal Development": ["+1 Str", "+1 Dex", "+1 End", "Gambling", "+1 Edu", "Brawling"],
+      "Service Skills": ["Vehicle", "Air Raft", "Gun Cbt", "Fwd Observer", "Blade Cbt", "Gun Cbt"],
+      "Advanced Education": ["Vehicle", "Mechanical", "Electronic", "Tactics", "Blade Cbt", "Gun Cbt"],
+      "Advanced Education (edu 8+)": ["Medical", "Tactics", "Tactics", "Computer", "Leader", "Admin"]
+    },
+    "scouts": {
+      "Personal Development": ["+1 Str", "+1 Dex", "+1 End", "+1 Int", "+1 Edu", "Gun Cbt"],
+      "Service Skills": ["Vehicle", "Vacc Suit", "Mechanical", "Navigation", "Electronics", "JoT"],
+      "Advanced Education": ["Vehicle", "Mechanical", "Electronic", "JoT", "Gunnery", "Medical"],
+      "Advanced Education (edu 8+)": ["Medical", "Navigation", "Engineering", "Computer", "Pilot", "JoT"]
+    },
+    "merchants": {
+      "Personal Development": ["+1 Str", "+1 Dex", "+1 End", "+1 Str", "Blade Cbt", "Bribery"],
+      "Service Skills": ["Vehicle", "Vacc Suit", "JoT", "Steward", "Electronics", "Gun Cbt"],
+      "Advanced Education": ["Streetwise", "Mechanical", "Electronic", "Navigation", "Gunnery", "Medical"],
+      "Advanced Education (edu 8+)": ["Medical", "Navigation", "Engineering", "Computer", "Pilot", "Admin"]
+    },
+    "other": {
+      "Personal Development": ["+1 Str", "+1 Dex", "+1 End", "Blade Cbt", "Brawling", "-1 Soc"],
+      "Service Skills": ["Vehicle", "Gambling", "Brawling", "Bribery", "Blade Cbt", "Gun Cbt"],
+      "Advanced Education": ["Streetwise", "Mechanical", "Electronic", "Gambling", "Brawling", "Forgery"],
+      "Advanced Education (edu 8+)": ["Medical", "Forgery", "Electronic", "Computer", "Streetwise", "JoT"]
+    },
+  }
+}

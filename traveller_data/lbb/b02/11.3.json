@@ -1,0 +1,116 @@
+{
+  "title": "Passenger Availability",
+  "data": {
+    "high": {
+      "2": {
+        "positive_dice": 1,
+        "negative_dice": 1
+      },
+      "3": {
+        "positive_dice": 2,
+        "negative_dice": 2
+      },
+      "4": {
+        "positive_dice": 2,
+        "negative_dice": 1
+      },
+      "5": {
+        "positive_dice": 2,
+        "negative_dice": 1
+      },
+      "6": {
+        "positive_dice": 3,
+        "negative_dice": 2
+      },
+      "7": {
+        "positive_dice": 3,
+        "negative_dice": 2
+      },
+      "8": {
+        "positive_dice": 3,
+        "negative_dice": 1
+      },
+      "9": {
+        "positive_dice": 3,
+        "negative_dice": 1
+      },
+      "A": {
+        "positive_dice": 3
+      }
+    },
+    "middle": {
+      "1": {
+        "positive_dice": 1,
+        "negative_mod": 2
+      },
+      "2": {
+        "positive_dice": 1
+      },
+      "3": {
+        "positive_dice": 2,
+        "negative_dice": 1
+      },
+      "4": {
+        "positive_dice": 2,
+        "negative_dice": 1
+      },
+      "5": {
+        "positive_dice": 3,
+        "negative_dice": 2
+      },
+      "6": {
+        "positive_dice": 3,
+        "negative_dice": 2
+      },
+      "7": {
+        "positive_dice": 3,
+        "negative_dice": 1
+      },
+      "8": {
+        "positive_dice": 3,
+        "negative_dice": 1
+      },
+      "9": {
+        "positive_dice": 3
+      },
+      "A": {
+        "positive_dice": 4
+      }
+    },
+    "low": {
+      "1": {
+        "positive_dice": 2,
+        "negative_mod": 6
+      },
+      "2": {
+        "positive_dice": 2
+      },
+      "3": {
+        "positive_dice": 2
+      },
+      "4": {
+        "positive_dice": 3,
+        "negative_dice": 1
+      },
+      "5": {
+        "positive_dice": 3,
+        "negative_dice": 1
+      },
+      "6": {
+        "positive_dice": 3
+      },
+      "7": {
+        "positive_dice": 3
+      },
+      "8": {
+        "positive_dice": 4
+      },
+      "9": {
+        "positive_dice": 5
+      },
+      "A": {
+        "positive_dice": 6
+      }
+    }
+  }
+}

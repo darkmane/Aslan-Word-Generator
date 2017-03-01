@@ -1,0 +1,27 @@
+{
+  "title": "Ship Revenues",
+  "data": {
+    "revenues": [
+      {
+        "source": "Per High Passage",
+        "revenue": 10000
+      },
+      {
+        "source": "Per Middle Passage",
+        "revenue": 8000
+      },
+      {
+        "source": "Per Low Passage",
+        "revenue": 1000
+      },
+      {
+        "source": "Per Cargo Ton",
+        "revenue": 1000
+      },
+      {
+        "source": "Mail",
+        "revenue": 25000
+      }
+    ]
+  }
+}

@@ -1,0 +1,512 @@
+{
+  "title": "Trade and Speculation Types",
+  "data": {
+    "11": {
+      "type": "Textiles",
+      "base_price": 3000,
+      "purchase_mod": [
+        "A–7",
+        "NA–5",
+        "NI–3"
+      ],
+      "resale_mod": [
+        "A–6",
+        "NA+1",
+        "R+3"
+      ],
+      "quantity": "3Dx5"
+    },
+    "12": {
+      "type": "Polymers",
+      "base_price": 7000,
+      "purchase_mod": [
+        "I–2",
+        "R–3",
+        "P+2"
+      ],
+      "resale_mod": [
+        "I–2",
+        "R+3"
+      ],
+      "quantity": "4Dx5"
+    },
+    "13": {
+      "type": "Liquor",
+      "base_price": 10000,
+      "purchase_mod": [
+        "A–4"
+      ],
+      "resale_mod": [
+        "A–3",
+        "I+1",
+        "R+2"
+      ],
+      "quantity": "1Dx5"
+    },
+    "14": {
+      "type": "Wood",
+      "base_price": 1000,
+      "purchase_mod": [
+        "A–6"
+      ],
+      "resale_mod": [
+        "A–6",
+        "I+1",
+        "R+2"
+      ],
+      "quantity": "2Dx10"
+    },
+    "15": {
+      "type": "Crystals",
+      "base_price": 20000,
+      "purchase_mod": [
+        "NA–3",
+        "I+4"
+      ],
+      "resale_mod": [
+        "NA–3",
+        "I+3",
+        "R+3"
+      ],
+      "quantity": "1D"
+    },
+    "16": {
+      "type": "Radioactives",
+      "base_price": 1000000,
+      "purchase_mod": [
+        "I+7",
+        "NI–3",
+        "R+5"
+      ],
+      "resale_mod": [
+        "I+6",
+        "NI–3",
+        "R–4"
+      ],
+      "quantity": "1D"
+    },
+    "21": {
+      "type": "Steel",
+      "base_price": 500,
+      "purchase_mod": [
+        "I–2",
+        "R–1",
+        "P+1"
+      ],
+      "resale_mod": [
+        "I–2",
+        "R–1",
+        "P+3"
+      ],
+      "quantity": "4Dx10"
+    },
+    "22": {
+      "type": "Copper",
+      "base_price": 2000,
+      "purchase_mod": [
+        "I–3",
+        "R–2",
+        "P+1"
+      ],
+      "resale_mod": [
+        "I–3",
+        "R–1"
+      ],
+      "quantity": "2Dx10"
+    },
+    "23": {
+      "type": "Aluminum",
+      "base_price": 1000,
+      "purchase_mod": [
+        "I–3",
+        "R–2",
+        "P+1"
+      ],
+      "resale_mod": [
+        "I–3",
+        "NI+4",
+        "R–1"
+      ],
+      "quantity": "5Dx10"
+    },
+    "24": {
+      "type": "Tin",
+      "base_price": 9000,
+      "purchase_mod": [
+        "I–3",
+        "R–2",
+        "P+1"
+      ],
+      "resale_mod": [
+        "I–3",
+        "R–1"
+      ],
+      "quantity": "3Dx10"
+    },
+    "25": {
+      "type": "Silver",
+      "base_price": 70000,
+      "purchase_mod": [
+        "I+5",
+        "R–1",
+        "P+2"
+      ],
+      "resale_mod": [
+        "I+5",
+        "R–1"
+      ],
+      "quantity": "1Dx5"
+    },
+    "26": {
+      "type": "Special Alloys",
+      "base_price": 200000,
+      "purchase_mod": [
+        "I–3",
+        "NI+5",
+        "R–2"
+      ],
+      "resale_mod": [
+        "I–3",
+        "NI+4",
+        "R–1"
+      ],
+      "quantity": "1D"
+    },
+    "31": {
+      "type": "Petrochemicals",
+      "base_price": 10000,
+      "purchase_mod": [
+        "NA–4",
+        "I+1",
+        "NI–5"
+      ],
+      "resale_mod": [
+        "NA4",
+        "I+3",
+        "NI–5"
+      ],
+      "quantity": "6Dx5"
+    },
+    "32": {
+      "type": "Grain",
+      "base_price": 300,
+      "purchase_mod": [
+        "A–2",
+        "NA+1",
+        "I+2"
+      ],
+      "resale_mod": [
+        "A–2"
+      ],
+      "quantity": "8Dx5"
+    },
+    "33": {
+      "type": "Meat",
+      "base_price": 1500,
+      "purchase_mod": [
+        "A–2",
+        "NA+2",
+        "I+3"
+      ],
+      "resale_mod": [
+        "A–2",
+        "I+2",
+        "P+1"
+      ],
+      "quantity": "4Dx5"
+    },
+    "34": {
+      "type": "Spices",
+      "base_price": 6000,
+      "purchase_mod": [
+        "A–2",
+        "NA+3",
+        "I+2"
+      ],
+      "resale_mod": [
+        "A–2",
+        "R+2",
+        "P+3"
+      ],
+      "quantity": "1Dx5"
+    },
+    "35": {
+      "type": "Fruit",
+      "base_price": 1000,
+      "purchase_mod": [
+        "A–3",
+        "NA+1",
+        "I+2"
+      ],
+      "resale_mod": [
+        "A–2",
+        "I+3",
+        "P+2"
+      ],
+      "quantity": "2Dx5"
+    },
+    "36": {
+      "type": "Pharmaceuticals",
+      "base_price": 100000,
+      "purchase_mod": [
+        "NA–3",
+        "I+4",
+        "P+3"
+      ],
+      "resale_mod": [
+        "NA–3",
+        "I+5",
+        "R+4"
+      ],
+      "quantity": "1D"
+    },
+    "41": {
+      "type": "Gems",
+      "base_price": 1000000,
+      "purchase_mod": [
+        "I+4",
+        "NI–8",
+        "P–3"
+      ],
+      "resale_mod": "I+4",
+      "NI–2",
+      "R+8"
+    ],
+      "quantity": "1D"
+    },
+    "42": {
+      "type": "Firearms",
+      "base_price": 30000,
+      "purchase_mod": [
+        "I–3",
+        "R–2",
+        "P+3"
+      ],
+      "resale_mod": [
+        "I–2",
+        "R–1",
+        "P+3"
+      ],
+      "quantity": "2D"
+    },
+    "43": {
+      "type": "Ammunition",
+      "base_price": 30000,
+      "purchase_mod": [
+        "I–3",
+        "R–2",
+        "P+3"
+      ],
+      "resale_mod": [
+        "I–2",
+        "R–1",
+        "P+3"
+      ],
+      "quantity": "2D"
+    },
+    "44": {
+      "type": "Blades",
+      "base_price": 10000,
+      "purchase_mod": [
+        "I–3",
+        "R–2",
+        "P+3"
+      ],
+      "resale_mod": [
+        "I–2",
+        "R–1",
+        "P+3"
+      ],
+      "quantity": "2D"
+    },
+    "45": {
+      "type": "Tools",
+      "base_price": 10000,
+      "purchase_mod": [
+        "I–3",
+        "R–2",
+        "P+3"
+      ],
+      "resale_mod": [
+        "I–2",
+        "R–1",
+        "P+3"
+      ],
+      "quantity": "2D"
+    },
+    "46": {
+      "type": "Body Armor",
+      "base_price": 50000,
+      "purchase_mod": [
+        "I–1",
+        "R–3",
+        "P+3"
+      ],
+      "resale_mod": [
+        "I–2",
+        "R+1",
+        "P+4"
+      ],
+      "quantity": "2D"
+    },
+    "51": {
+      "type": "Aircraft",
+      "base_price": 1000000,
+      "purchase_mod": [
+        "I–4",
+        "R–3"
+      ],
+      "resale_mod": [
+        "NI+2",
+        "P+1"
+      ],
+      "quantity": "1D"
+    },
+    "52": {
+      "type": "Air/Raft",
+      "base_price": 6000000,
+      "purchase_mod": [
+        "I–3",
+        "R–2"
+      ],
+      "resale_mod": [
+        "NI+2",
+        "P+1"
+      ],
+      "quantity": "1D"
+    },
+    "53": {
+      "type": "Computers",
+      "base_price": 10000000,
+      "purchase_mod": [
+        "I–2",
+        "R–2"
+      ],
+      "resale_mod": [
+        "NI+2",
+        "P+1",
+        "A–3"
+      ],
+      "quantity": "1D"
+    },
+    "54": {
+      "type": "ATV",
+      "base_price": 3000000,
+      "purchase_mod": [
+        "I–2",
+        "R–2"
+      ],
+      "resale_mod": [
+        "NI+2",
+        "P+1",
+        "A+1"
+      ],
+      "quantity": "1D"
+    },
+    "55": {
+      "type": "AFV",
+      "base_price": 7000000,
+      "purchase_mod": [
+        "I–5",
+        "R–2",
+        "P+4"
+      ],
+      "resale_mod": [
+        "NA–2",
+        "A+2",
+        "R+1"
+      ],
+      "quantity": "1D"
+    },
+    "56": {
+      "type": "Farm Machinery",
+      "base_price": 150000,
+      "purchase_mod": [
+        "I–5",
+        "R–2"
+      ],
+      "resale_mod": [
+        "A+5",
+        "NA–8",
+        "P+1"
+      ],
+      "quantity": "1D"
+    },
+    "61": {
+      "type": "Electronics Parts",
+      "base_price": 100000,
+      "purchase_mod": [
+        "I-4",
+        "R-3"
+      ],
+      "resale_mod": [
+        "NI+2",
+        "P+1"
+      ],
+      "quantity": "1Dx5"
+    },
+    "62": {
+      "type": "Mechanical Parts",
+      "base_price": 75000,
+      "purchase_mod": [
+        "I–5",
+        "R–3"
+      ],
+      "resale_mod": [
+        "NI+3",
+        "A+2"
+      ],
+      "quantity": "1Dx5"
+    },
+    "63": {
+      "type": "Cybernetic Parts",
+      "base_price": 250000,
+      "purchase_mod": [
+        "I–4",
+        "R–1"
+      ],
+      "resale_mod": [
+        "NI+4",
+        "A+1",
+        "NA+2"
+      ],
+      "quantity": "1Dx5"
+    },
+    "64": {
+      "type": "Computer Parts",
+      "base_price": 150000,
+      "purchase_mod": [
+        "I–5",
+        "R–3"
+      ],
+      "resale_mod": [
+        "NI+3",
+        "A+1",
+        "NA+2"
+      ],
+      "quantity": "1Dx5"
+    },
+    "65": {
+      "type": "Machine Tools",
+      "base_price": 750000,
+      "purchase_mod": [
+        "I–5",
+        "R–4"
+      ],
+      "resale_mod": [
+        "NI+3",
+        "A+1",
+        "NA+2"
+      ],
+      "quantity": "1Dx5"
+    },
+    "66": {
+      "type": "Vacc Suits",
+      "base_price": 400000,[
+  "NA–5",
+  "I–3",
+  "R–1"
+], "resale_mod": ["NA–1", "NI+2", "P+1"], "quantity": "1Dx5"
+}
+}
+}

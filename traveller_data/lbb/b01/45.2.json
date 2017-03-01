@@ -1,0 +1,65 @@
+{
+  "title": "Weapons Table (ranged)",
+  "data": {
+    "body pistol": {
+      "required_dex": 8,
+      "required_dex_dm": -3,
+      "advantageous_dex": 11,
+      "advantageous_dex_dm": 1
+    },
+    "auto pistol": {
+      "required_dex": 7,
+      "required_dex_dm": -2,
+      "advantageous_dex": 10,
+      "advantageous_dex_dm": 1
+    },
+    "revolver": {
+      "required_dex": 7,
+      "required_dex_dm": -2,
+      "advantageous_dex": 9,
+      "advantageous_dex_dm": 1
+    },
+    "carbine": {
+      "required_dex": 5,
+      "required_dex_dm": -1,
+      "advantageous_dex": 9,
+      "advantageous_dex_dm": 1
+    },
+    "rifle": {
+      "required_dex": 6,
+      "required_dex_dm": -2,
+      "advantageous_dex": 8,
+      "advantageous_dex_dm": 1
+    },
+    "automatic rifle": {
+      "required_dex": 7,
+      "required_dex_dm": -2,
+      "advantageous_dex": 10,
+      "advantageous_dex_dm": 2
+    },
+    "shotgun": {
+      "required_dex": 4,
+      "required_dex_dm": -1,
+      "advantageous_dex": 9,
+      "advantageous_dex_dm": 1
+    },
+    "smg": {
+      "required_dex": 6,
+      "required_dex_dm": -2,
+      "advantageous_dex": 9,
+      "advantageous_dex_dm": 2
+    },
+    "laser carbine": {
+      "required_dex": 6,
+      "required_dex_dm": -3,
+      "advantageous_dex": 10,
+      "advantageous_dex_dm": 2
+    },
+    "laser rifle": {
+      "required_dex": 7,
+      "required_dex_dm": -3,
+      "advantageous_dex": 11,
+      "advantageous_dex_dm": 2
+    }
+  }
+}

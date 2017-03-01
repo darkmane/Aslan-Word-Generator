@@ -1,0 +1,57 @@
+{
+  "title": "System Contents Table",
+  "data": {
+    "starport": {
+      "2": "A",
+      "3": "A",
+      "4": "A",
+      "5": "B",
+      "6": "B",
+      "7": "C",
+      "8": "C",
+      "9": "D",
+      "10": "E",
+      "11": "E",
+      "12": "X"
+    },
+    "naval": {
+      "2": false,
+      "3": false,
+      "4": false,
+      "5": false,
+      "6": false,
+      "7": false,
+      "8": true,
+      "9": true,
+      "10": true,
+      "11": true,
+      "12": true
+    },
+    "scout": {
+      "2": false,
+      "3": false,
+      "4": false,
+      "5": false,
+      "6": false,
+      "7": true,
+      "8": true,
+      "9": true,
+      "10": true,
+      "11": true,
+      "12": true
+    },
+    "gas_giant": {
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true,
+      "8": true,
+      "9": true,
+      "10": false,
+      "11": false,
+      "12": false
+    }
+  }
+}

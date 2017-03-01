@@ -1,0 +1,10 @@
+{
+  "title": "Rank and Service Skills",
+  "data": {
+    "navy": [{"rank": 5, "skill": "+1 soc"}, {"rank": 6, "skill": "+1 soc"}],
+    "marines": [{"rank": 0, "skill": "cutlass"}, {"rank": 1, "skill": "revolver"}],
+    "army": [{"rank": 0, "skill": "rifle"}, {"rank": 1, "skill": "SMG"}],
+    "scout": [{"rank": 0, "skill": "pilot"}],
+    "merchant": [{"rank": 4, "skill": "pilot"}]
+  }
+}

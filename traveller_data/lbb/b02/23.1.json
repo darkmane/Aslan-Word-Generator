@@ -1,0 +1,111 @@
+{
+  "title": "Ship Fittings",
+  "data": {
+    "hardpoint": {
+      "cost": 100000
+    },
+    "single_turret": {
+      "cost": 200000
+    },
+    "double_turret": {
+      "cost": 500000
+    },
+    "tripple_turret": {
+      "cost": 1000000
+    },
+    "pulse_laser": {
+      "cost": 500000
+    },
+    "beam_laser": {
+      "cost": 1000000
+    },
+    "missle_rack": {
+      "cost": 750000
+    },
+    "sandcaster": {
+      "cost": 250000
+    },
+    "state room": {
+      "cost": 500000,
+      "tonnage": 4
+    },
+    "low berth": {
+      "cost": 50000,
+      "tonnage": 0.5
+    },
+    "emergency low berth": {
+      "cost": 100000,
+      "tonnage": 1
+    },
+    "small craft cabin": {
+      "cost": 50000,
+      "tonnage": 2
+    },
+    "wheeled atv": {
+      "cost": 30000,
+      "tonnage": 10
+    },
+    "tracked atv": {
+      "cost": 30000,
+      "tonnage": 10
+    },
+    "air raft": {
+      "cost": 600000,
+      "tonnage": 4
+    },
+    "speeder": {
+      "cost": 1000000,
+      "tonnage": 6
+    },
+    "grav carrier": {
+      "cost": 1000000,
+      "tonnage": 8
+    },
+    "launch": {
+      "cost": 14000000,
+      "tonnage": 20
+    },
+    "ships boat": {
+      "cost": 16000000,
+      "tonnage": 30
+    },
+    "pinnance": {
+      "cost": 20000000,
+      "tonnage": 40
+    },
+    "cutter": {
+      "cost": 28000000,
+      "tonnage": 50,
+      "optional modules": {
+        "fuel module": {
+          "cost": 1000000,
+          "tonnage": 30
+        },
+        "atv module": {
+          "cost": 1800000,
+          "tonnage": 30
+        },
+        "open module": {
+          "cost": 2000000,
+          "tonnage": 30
+        }
+      }
+    },
+    "slow boat": {
+      "cost": 15000000,
+      "tonnage": 30
+    },
+    "slow pinnance": {
+      "cost": 18000000,
+      "tonnage": 40
+    },
+    "shuttle": {
+      "cost": 33000000,
+      "tonnage": 95
+    },
+    "fighter": {
+      "cost": 18000000,
+      "tonnage": 10
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "title": "Prior Service Table",
+  "data": {
+    "draft": ["navy", "marines", "army", "scouts", "merchants","other"],
+    "navy": {
+      "enlistment": 8,
+      "enlistment_mod": [
+        {
+          "mod": 1,
+          "char": "int",
+          "char_val": 8
+        },
+        {
+          "mod": 2,
+          "char": "edu",
+          "char_val": 9
+        }
+      ],
+      "draft": 1,
+      "survival": {
+        "roll": 5,
+        "mod": {
+          "mod": 2,
+          "char": "int",
+          "char_val": 7
+        }
+      },
+      "commission": {
+        "roll": 10,
+        "mod": {
+          "mod": 1,
+          "char": "soc",
+          "char_val": 9
+        }
+      },
+      "promotion": {
+        "roll": 8,
+        "mod": {
+          "mod": 1,
+          "char": "edu",
+          "char_val": 8
+        },
+        "reenlist": 6
+      }
+    },
+    "marines": {
+      "enlistment": 9,
+      "enlistment_mod": [
+        {
+          "mod": 1,
+          "char": "int",
+          "char_val": 8
+        },
+        {
+          "mod": 2,
+          "char": "str",
+          "char_val": 8
+        }
+      ],
+      "draft": 2,
+      "survival": {
+        "roll": 6,
+        "mod": {
+          "mod": 2,
+          "char": "end",
+          "char_val": 8
+        }
+      },
+      "commission": {
+        "roll": 9,
+        "mod": {
+          "mod": 1,
+          "char": "edu",
+          "char_val": 7
+        }
+      },
+      "promotion": {
+        "roll": 9,
+        "mod": {
+          "mod": 1,
+          "char": "soc",
+          "char_val": 8
+        },
+        "reenlist": 6
+      }
+    },
+    "army": {
+      "enlistment": 5,
+      "enlistment_mod": [
+        {
+          "mod": 1,
+          "char": "dex",
+          "char_val": 6
+        },
+        {
+          "mod": 2,
+          "char": "end",
+          "char_val": 5
+        }
+      ],
+      "draft": 3,
+      "survival": {
+        "roll": 5,
+        "mod": {
+          "mod": 2,
+          "char": "int",
+          "char_val": 7
+        }
+      },
+      "commission": {
+        "roll": 10,
+        "mod": {
+          "mod": 1,
+          "char": "soc",
+          "char_val": 9
+        }
+      },
+      "promotion": {
+        "roll": 8,
+        "mod": {
+          "mod": 1,
+          "char": "edu",
+          "char_val": 8
+        },
+        "reenlist": 7
+      }
+    },
+    "scouts": {
+      "enlistment": 7,
+      "enlistment_mod": [
+        {
+          "mod": 1,
+          "char": "int",
+          "char_val": 6
+        },
+        {
+          "mod": 2,
+          "char": "str",
+          "char_val": 8
+        }
+      ],
+      "draft": 4,
+      "survival": {
+        "roll": 7,
+        "mod": {
+          "mod": 2,
+          "char": "end",
+          "char_val": 9
+        }
+      },
+      "reenlist": 3
+    },
+    "merchants": {
+      "enlistment": 7,
+      "enlistment_mod": [
+        {
+          "mod": 1,
+          "char": "str",
+          "char_val": 7
+        },
+        {
+          "mod": 2,
+          "char": "int",
+          "char_val": 6
+        }
+      ],
+      "draft": 5,
+      "survival": {
+        "roll": 5,
+        "mod": {
+          "mod": 2,
+          "char": "int",
+          "char_val": 7
+        }
+      },
+      "commission": {
+        "roll": 4,
+        "mod": {
+          "mod": 1,
+          "char": "int",
+          "char_val": 6
+        }
+      },
+      "promotion": {
+        "roll": 10,
+        "mod": {
+          "mod": 1,
+          "char": "int",
+          "char_val": 9
+        },
+        "reenlist": 4
+      }
+    },
+    "other": {
+      "enlistment": 3,
+      "enlistment_mod": [],
+      "draft": 6,
+      "survival": {
+        "roll": 5,
+        "mod": {
+          "mod": 2,
+          "char": "int",
+          "char_val": 9
+        }
+      },
+        "reenlist": 5
+      }
+    }
+  }
+}

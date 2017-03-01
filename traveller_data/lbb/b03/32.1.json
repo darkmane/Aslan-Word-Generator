@@ -1,0 +1,104 @@
+{
+  "title": "Terrain Types",
+  "data": {
+    "clear": {
+      "terrain": "Road, Open",
+      "type_mod": 3
+    },
+    "prairie": {
+      "terrain": "Plain, Steppe",
+      "type_mod": 4
+    },
+    "rough": {
+      "terrain": "Hills, Foothills"
+    },
+    "broken": {
+      "terrain": "Badlands",
+      "type_mod": -3,
+      "size_mod": -3
+    },
+    "mountain": {
+      "terrain": "Alpine"
+    },
+    "forest": {
+      "terrain": "Woods",
+      "type_mod": -4,
+      "size_mod": -4
+    },
+    "jungle": {
+      "terrain": "Rainforest",
+      "type_mod": -3,
+      "size_mod": -2
+    },
+    "river": {
+      "terrain": "Stream, Creek",
+      "type_mod": 1,
+      "size_mod": 1
+    },
+    "swamp": {
+      "terrain": "Bog",
+      "type_mod": -2,
+      "size_mod": 4
+    },
+    "marsh": {
+      "terrain": "Wetland",
+      "size_mod": -1
+    },
+    "desert": {
+      "terrain": "Dunes",
+      "type_mod": 3,
+      "size_mod": -3
+    },
+    "beach": {
+      "terrain": "Shore, Sea edge",
+      "type_mod": 3,
+      "size_mod": 2
+    },
+    "surface": {
+      "terrain": "Ocean, Sea",
+      "type_mod": 2,
+      "size_mod": 3
+    },
+    "shallows": {
+      "terrain": "Ocean, Sea",
+      "type_mod": 2,
+      "size_mod": 2
+    },
+    "depths": {
+      "terrain": "Ocean, Sea",
+      "type_mod": 2,
+      "size_mod": 4
+    },
+    "bottom": {
+      "terrain": "Ocean, Sea",
+      "type_mod": -4
+    },
+    "sea cave": {
+      "terrain": "Sea Cavern",
+      "type_mod": -2
+    },
+    "sargasso": {
+      "terrain": "Seaweed",
+      "type_mod": -4,
+      "size_mod": -2
+    },
+    "ruins": {
+      "terrain": "Old City",
+      "type_mod": -3
+    },
+    "cave": {
+      "terrain": "Cavern",
+      "type_mod": -4,
+      "size_mod": 1
+    },
+    "chasm": {
+      "terrain": "Crevase, Abyss",
+      "type_mod": -1,
+      "size_mod": -3
+    },
+    "craterr": {
+      "terrain": "Hollow",
+      "size_mod": -1
+    }
+  }
+}

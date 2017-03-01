@@ -1,0 +1,115 @@
+{
+  "title": "Technological Levels",
+  "data": {
+    "weapons": {
+      "personal": {
+        "0": "club, spear, cudgel",
+        "1": "dagger, pike,sword",
+        "2": "halberd, matchlock, broadsword",
+        "3": "foil, cutlass, flintlock, blade, bayonet",
+        "4": "revolver, shotgun",
+        "5": "carbine, rifle, pistol, smg",
+        "6": "auto rifle, light machine gun",
+        "7": "body pistol",
+        "8": "laser carbine",
+        "9": "laser rifle"
+      },
+      "armor": {
+        "1": "jack",
+        "5": "steel plate",
+        "6": "cloth",
+        "7": "mesh, flak jacket",
+        "8": "vacc suit",
+        "9": "ablat",
+        "10": "reflec",
+        "11": "combat armor",
+        "13": "battle dress"
+      },
+      "heavy": {
+        "1": "catapult",
+        "2": "cannon",
+        "4": "artillery",
+        "5": "sandcasters, mortars",
+        "6": "missles, missle launchers",
+        "7": "pulse laser, grenade launcher",
+        "8": "auto-cannon",
+        "9": "beam laser",
+        "16": "disintegrators"
+      }
+    },
+    "computers": {
+      "1": "abacus",
+      "4": "adding machine",
+      "5": "Model/1",
+      "6": "Model/1 bis",
+      "7": "Model/2, hand calculator",
+      "8": "Model/2 bis",
+      "9": "Model/3, battle computer",
+      "10": "Model/4",
+      "11": "Model/5, hand computer",
+      "12": "Model/6",
+      "13": "Model/7",
+      "17": "artificial intelligence"
+    },
+    "communications": {
+      "0": "runners",
+      "1": "heliograph",
+      "4": "telephones",
+      "5": "radio",
+      "6": "television"
+    },
+    "transportation": {
+      "water": {
+        "0": "canoes, rafts",
+        "1": "galleys",
+        "3": "sailing ships",
+        "4": "steam ships",
+        "6": "submersibles",
+        "7": "hovercraft",
+        "10": "grav vehicles, grav tanks",
+        "16": "matter transport"
+      },
+      "land": {
+        "0": "carts",
+        "1": "wagons",
+        "4": "trains",
+        "5": "ground cars",
+        "6": "ATV, AFV",
+        "7": "hovercraft",
+        "10": "grav vehicles, grav tanks",
+        "16": "matter transport"
+      },
+      "air": {
+        "3": "hot air ballons",
+        "4": "dirigibles",
+        "5": "fixed wing aircraft",
+        "6": "rotary wing aircraft",
+        "7": "hovercraft",
+        "8": "air/rafts",
+        "10": "grav vehicles, grav tanks",
+        "12": "grav belts",
+        "16": "matter transport"
+      },
+      "space": {
+        "7": "non-starships",
+        "9": "drives A-D",
+        "10": "drives E-H",
+        "11": "drives J-K",
+        "12": "drives L-N",
+        "13": "drives P-Q",
+        "14": "drives R-U",
+        "15": "all drives"
+      }
+    },
+    "energy": {
+      "0": "muscle",
+      "2": "wind",
+      "3": "water wheel",
+      "4": "coal",
+      "5": "oil",
+      "6": "fission",
+      "7": "solar",
+      "8": "fusion"
+    }
+  }
+}

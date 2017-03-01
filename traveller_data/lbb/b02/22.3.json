@@ -1,0 +1,60 @@
+{
+  "title": "Computers",
+  "data": {
+    "1": {
+      "cost_mcr": 2,
+      "mass":
+      !,
+      "capacity": "2/4",
+      "tech_level": "5"
+    },
+    "1bis": {
+      "cost_mcr": 4,
+      "mass": 1,
+      "capacity": "4/0",
+      "tech_level": "6"
+    },
+    "2": {
+      "cost_mcr": 9,
+      "mass": 2,
+      "capacity": "3,6",
+      "tech_level": "7"
+    },
+    "2bis": {
+      "cost_mcr": 18,
+      "mass": 2,
+      "capacity": "6/0",
+      "tech_level": "8"
+    },
+    "3": {
+      "cost_mcr": 18,
+      "mass": 3,
+      "capacity": "5/9",
+      "tech_level": "9"
+    },
+    "4": {
+      "cost_mcr": 30,
+      "mass": 4,
+      "capacity": "8/15",
+      "tech_level": "A"
+    },
+    "5": {
+      "cost_mcr": 45,
+      "mass": 5,
+      "capacity": "12/25",
+      "tech_level": "B"
+    },
+    "6": {
+      "cost_mcr": 55,
+      "mass": 7,
+      "capacity": "15/35",
+      "tech_level": "C"
+    },
+    "7": {
+      "cost_mcr": 80,
+      "mass": 9,
+      "capacity": "20/50",
+      "tech_level": "D"
+    }
+  }
+}

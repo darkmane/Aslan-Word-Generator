@@ -1,0 +1,11 @@
+{
+  "title": "Psionic Talents",
+  "data": {
+    "telepathy": 5,
+    "clairivoyance": 6,
+    "telekinesis": 6,
+    "awareness": 7,
+    "teleportation": 9,
+    "special": 9
+  }
+}

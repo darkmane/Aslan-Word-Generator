@@ -1,0 +1,55 @@
+{
+  "title": "Patron Encounters",
+  "data": {
+    "table": [
+      [
+        "Arsonist",
+        "Cutthroat",
+        "Assassin",
+        "Hijacker",
+        "Smuggler",
+        "Terrorist"
+      ],
+      [
+        "Crewperson",
+        "Peasant",
+        "Rumor",
+        "Clerk",
+        "Soldier",
+        "Shopkeeper"
+      ],
+      [
+        "Shipowner",
+        "Tourist",
+        "Merchant",
+        "Police",
+        "Scout",
+        "Rumor"
+      ],
+      [
+        "Diplomat",
+        "Courier",
+        "Spy",
+        "Scholar",
+        "Governor",
+        "Administrator"
+      ],
+      [
+        "Mercenary",
+        "Naval",
+        "Marine",
+        "Scout",
+        "Army",
+        "Mercenary"
+      ],
+      [
+        "Noble",
+        "Playboy",
+        "Avenger",
+        "Emigre",
+        "Speculator",
+        "Rumor"
+      ]
+    ]
+  }
+}

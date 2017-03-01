@@ -1,0 +1,148 @@
+{
+  "title": "Animal Attributes",
+  "data": {
+    "beach": {
+      "2": {
+        "type": "swimmer",
+        "size_mod": 1
+      },
+      "3": {
+        "type": "amphibian",
+        "size_mod": 2
+      },
+      "4": {
+        "type": "amphibian",
+        "size_mod": 2
+      },
+      "11": {
+        "type": "flyer",
+        "size_mod": -6
+      },
+      "12": {
+        "type": "flyer",
+        "size_mod": -5
+      }
+    },
+    "marsh": {
+      "2": {
+        "type": "swimmer",
+        "size_mod": -6
+      },
+      "3": {
+        "type": "amphibian",
+        "size_mod": 2
+      },
+      "4": {
+        "type": "amphibian",
+        "size_mod": 1
+      },
+      "11": {
+        "type": "flyer",
+        "size_mod": -6
+      },
+      "12": {
+        "type": "flyer",
+        "size_mod": -5
+      }
+    },
+    "river": {
+      "2": {
+        "type": "swimmer",
+        "size_mod": 1
+      },
+      "3": {
+        "type": "amphibian",
+        "size_mod": 1
+      },
+      "11": {
+        "type": "flyer",
+        "size_mod": -6
+      },
+      "12": {
+        "type": "flyer",
+        "size_mod": -5
+      }
+    },
+    "sea": {
+      "2": {
+        "type": "swimmer",
+        "size_mod": 2
+      },
+      "3": {
+        "type": "swimmer",
+        "size_mod": 2
+      },
+      "4": {
+        "type": "swimmer",
+        "size_mod": 2
+      },
+      "5": {
+        "type": "amphibian",
+        "size_mod": 2
+      },
+      "6": {
+        "type": "amphibian"
+      },
+      "7": {
+        "type": "swimmer",
+        "size_mod": 1
+      },
+      "8": {
+        "type": "swimmer",
+        "size_mod": -1
+      },
+      "9": {
+        "type": "triphibian",
+        "size_mod": -7
+      },
+      "10": {
+        "type": "triphibian",
+        "size_mod": -6
+      },
+      "11": {
+        "type": "flyer",
+        "size_mod": -6
+      },
+      "12": {
+        "type": "flyer",
+        "size_mod": -5
+      }
+    },
+    "swamp": {
+      "2": {
+        "type": "swimmer",
+        "size_mod": -3
+      },
+      "3": {
+        "type": "amphibian",
+        "size_mod": 1
+      },
+      "4": {
+        "type": "amphibian",
+        "size_mod": 1
+      },
+      "11": {
+        "type": "flyer",
+        "size_mod": -6
+      },
+      "12": {
+        "type": "flyer",
+        "size_mod": -5
+      }
+    },
+    "other": {
+      "10": {
+        "type": "flyer",
+        "size_mod": -6
+      },
+      "11": {
+        "type": "flyer",
+        "size_mod": -5
+      },
+      "12": {
+        "type": "flyer",
+        "size_mod": -3
+      }
+    }
+  }
+}

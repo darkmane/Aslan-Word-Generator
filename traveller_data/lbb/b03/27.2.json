@@ -1,0 +1,16 @@
+{
+  "title": "Reactions",
+  "data": {
+    "2": "Violent, Immediate attack",
+    "3": "Hostile. Attacks on 5+",
+    "4": "Hostile. Attacks on 8+",
+    "5": "Hostile. May attack",
+    "6": "Unreceptive",
+    "7": "Non-commital",
+    "8": "Interested",
+    "9": "Intrigued",
+    "10": "Responsive",
+    "11": "Enthusiastic",
+    "12": "Genuinely Friendly"
+  }
+}

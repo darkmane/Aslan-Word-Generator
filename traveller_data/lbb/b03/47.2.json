@@ -1,0 +1,180 @@
+{
+  "title": "Psionic Skill Summaries",
+  "data": {
+    "telepathy": {
+      "experience": " 8+ per month to increase one level",
+      "skills": [
+        {
+          "level": 1,
+          "name": "Shield",
+          "time_required": "constant",
+          "cost": "0"
+        },
+        {
+          "level": 1,
+          "name": "Life Detection",
+          "time_required": "60 seconds",
+          "cost": "1+Range"
+        },
+        {
+          "level": 2,
+          "name": "Telempathy",
+          "time_required": "60 seconds",
+          "cost": "1+Range"
+        },
+        {
+          "level": 4,
+          "name": "Read surface thoughts",
+          "time_required": "60 seconds",
+          "cost": "2+Range"
+        },
+        {
+          "level": 5,
+          "name": "Send thoughts",
+          "time_required": "120 seconds",
+          "cost": "2+Range"
+        },
+        {
+          "level": 9,
+          "name": "Probe",
+          "time_required": "600 seconds",
+          "cost": "8+Range"
+        },
+        {
+          "level": 10,
+          "name": "Assault",
+          "time_required": "2 seconds",
+          "cost": "10+Range"
+        }
+      ]
+    },
+    "clairvoyance": {
+      "experience": "8+ per month to increase one level",
+      "skills": [
+        {
+          "level": 2,
+          "name": "Sense",
+          "time_required": "15 seconds",
+          "cost": "1+Range"
+        },
+        {
+          "level": 3,
+          "name": "Direction",
+          "time_required": "constant",
+          "cost": "0+Range"
+        },
+        {
+          "level": 5,
+          "name": "Clairvoyance",
+          "time_required": "15 seconds",
+          "cost": "2+Range"
+        },
+        {
+          "level": 5,
+          "name": "Clairaudience",
+          "time_required": "15 seconds",
+          "cost": "2+Range"
+        },
+        {
+          "level": 9,
+          "name": "Combined",
+          "time_required": "15 seconds",
+          "cost": "2+Range"
+        }
+      ]
+    },
+    "telekinesis": {
+      "experience": "8+ per month to increase one level",
+      "skills": [
+        {
+          "level": 1,
+          "name": "Move 1 gram",
+          "time_required": "60 seconds",
+          "cost": "1+Range"
+        },
+        {
+          "level": 2,
+          "name": "Move 10 gram",
+          "time_required": "60 seconds",
+          "cost": "2+Range"
+        },
+        {
+          "level": 3,
+          "name": "Move 100 gram",
+          "time_required": "60 seconds",
+          "cost": "3+Range"
+        },
+        {
+          "level": 5,
+          "name": "Move 1 kg",
+          "time_required": "60 seconds",
+          "cost": "5+Range"
+        },
+        {
+          "level": 8,
+          "name": "Move 10 kg",
+          "time_required": "60 seconds",
+          "cost": "8+Range"
+        },
+        {
+          "level": 10,
+          "name": "Move 100 kg",
+          "time_required": "60 seconds",
+          "cost": "10+Range"
+        }
+      ]
+    },
+    "awareness": {
+      "experience": "10+ per month to increase one level",
+      "skills": [
+        {
+          "level": 2,
+          "name": "Suspended animation",
+          "time_required": "7 days",
+          "cost": "3"
+        },
+        {
+          "level": 4,
+          "name": "Psionically enhanced strength",
+          "time_required": "60 minutes",
+          "cost": "1/point"
+        },
+        {
+          "level": 5,
+          "name": "Psionically enhanced endurance",
+          "time_required": "60 minutes",
+          "cost": "1/point"
+        },
+        {
+          "level": 9,
+          "name": "Regeneration",
+          "time_required": "60 seconds",
+          "cost": "1/point"
+        }
+      ]
+    },
+    "teleportation": {
+      "experience": "12+ per month to increase one level",
+      "skills": [
+        {
+          "level": 5,
+          "name": "Personal, unclothed",
+          "time_required": "",
+          "cost": "0+Range"
+        },
+        {
+          "level": 7,
+          "name": "Personal, clothed",
+          "time_required": "",
+          "cost": "0+Range"
+        },
+        {
+          "level": 9,
+          "name": "Personal, with equipment",
+          "time_required": "",
+          "cost": "0+Range"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Range Descriptions",
+  "data": {
+    "close": " in physical contact; touching.",
+    "ahort": " at sword or polearm point; approximately 1 to 5 meters.",
+    "medium": " at pistol range; from 6 to 50 meters.",
+    "long": " at rifle range; from 51 to 250 meters.",
+    "very long": " at extreme range; from 251 to 500 meters.",
+    "distant": " beyond normal contact; from 500 to 5000 meters.",
+    "very distant": " out of sight; from 5 to 50 kilometers.",
+    "regional": " from 50 to 500 kilometers.",
+    "continental": " from 500 to 5000 kilometers.",
+    "planetary": " from 5000 to 50,000 kilometers.",
+  }
+}

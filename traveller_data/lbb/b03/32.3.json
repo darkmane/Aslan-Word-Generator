@@ -1,0 +1,208 @@
+{
+  "title": "Animal Types",
+  "data": {
+    "herbivore": [
+      {
+        "type": "Filter",
+        "count": "1D"
+      },
+      {
+        "type": "Filter"
+      },
+      {
+        "type": "Filter"
+      },
+      {
+        "type": "Intermittent"
+      },
+      {
+        "type": "Intermittent"
+      },
+      {
+        "type": "Intermittent",
+        "count": "1D"
+      },
+      {
+        "type": "Intermittent"
+      },
+      {
+        "type": "Grazer"
+      },
+      {
+        "type": "Grazer",
+        "count": "1D"
+      },
+      {
+        "type": "Grazer",
+        "count": "2D"
+      },
+      {
+        "type": "Grazer",
+        "count": "3D"
+      },
+      {
+        "type": "Grazer",
+        "count": "2D"
+      },
+      {
+        "type": "Grazer",
+        "count": "4D"
+      },
+      {
+        "type": "Grazer",
+        "count": "5D"
+      }
+    ],
+    "omnivore": [
+      {
+        "type": "Gatherer"
+      },
+      {
+        "type": "Gatherer"
+      },
+      {
+        "type": "Eater"
+      },
+      {
+        "type": "Gatherer"
+      },
+      {
+        "type": "Eater",
+        "count": "2D"
+      },
+      {
+        "type": "Gatherer"
+      },
+      {
+        "type": "Hunter"
+      },
+      {
+        "type": "Hunter",
+        "count": "1D"
+      },
+      {
+        "type": "Hunter"
+      },
+      {
+        "type": "Gatherer"
+      },
+      {
+        "type": "Eater",
+        "count": "1D"
+      },
+      {
+        "type": "Hunter",
+        "count": "1D"
+      },
+      {
+        "type": "Gatherer"
+      },
+      {
+        "type": "Gatherer"
+      }
+    ],
+    "carnivore": [
+      {
+        "type": "Siren"
+      },
+      {
+        "type": "Pouncer"
+      },
+      {
+        "type": "Siren"
+      },
+      {
+        "type": "Pouncer"
+      },
+      {
+        "type": "Killer",
+        "count": "1D"
+      },
+      {
+        "type": "Trapper"
+      },
+      {
+        "type": "Pouncer"
+      },
+      {
+        "type": "Chaser"
+      },
+      {
+        "type": "Chaser",
+        "count": "3D"
+      },
+      {
+        "type": "Chaser"
+      },
+      {
+        "type": "Killer"
+      },
+      {
+        "type": "Chaser",
+        "count": "2D"
+      },
+      {
+        "type": "Siren"
+      },
+      {
+        "type": "Chaser",
+        "count": "1D"
+      }
+    ],
+    "scavenger": [
+      {
+        "type": "Carrion-eater",
+        "count": "1D"
+      },
+      {
+        "type": "Carrion-eater",
+        "count": "2D"
+      },
+      {
+        "type": "Reducer",
+        "count": "1D"
+      },
+      {
+        "type": "Hijacker",
+        "count": "1D"
+      },
+      {
+        "type": "Carrion-eater",
+        "count": "2D"
+      },
+      {
+        "type": "Intimidator",
+        "count": "1D"
+      },
+      {
+        "type": "Reducer"
+      },
+      {
+        "type": "Carrion-eater",
+        "count": "1D"
+      },
+      {
+        "type": "Reducer",
+        "count": "3D"
+      },
+      {
+        "type": "Hijacker"
+      },
+      {
+        "type": "Intimidator",
+        "count": "2D"
+      },
+      {
+        "type": "Reducer",
+        "count": "1D"
+      },
+      {
+        "type": "Hijacker"
+      },
+      {
+        "type": "Intimidator",
+        "count": "1D"
+      }
+    ]
+  }
+}

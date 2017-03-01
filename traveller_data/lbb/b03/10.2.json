@@ -1,0 +1,11 @@
+{
+  "title": "Starport Types",
+  "data": {
+    "A": "Excellent quality installation. Refined fuel available. Annual maintenance overhaul available. Shipyard capable of constructing starships and non-starships present. Naval base and/or scout base may be present.",
+    "B": "Good quality installation. Refined fuel available. Annual maintenance overhaul available. Shipyard capable of constructing non-starships present. Naval base and/or scout base may be present.",
+    "C": "Routine quality installation. Only unrefined fuel available. Reasonable repair facilities present. Scout base may be present.",
+    "D": "Poor quality installation. Only unrefined fuel available. No repair or shipyard facilities present. Scout base may be present.",
+    "E": "Frontier installation. Essentially a marked spot of bedrock with no fuel, facilities, or bases present."
+    "X": "No starport. No provision is made for any ship landings."
+  }
+}

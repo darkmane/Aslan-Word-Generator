@@ -1,0 +1,114 @@
+{
+  "title": "Weapons",
+  "data": {
+    "Blades and Polearms": {
+      "Dagger": {
+        "plus_DM": 8,
+        "minus_DM": 3,
+        "wounds": 2
+      },
+      "Blade": {
+        "plus_DM": 9,
+        "minus_DM": 4,
+        "wounds": 2
+      },
+      "Foil": {
+        "plus_DM": 10,
+        "minus_DM": 4,
+        "wounds": 1
+      },
+      "Sword": {
+        "plus_DM": 10,
+        "minus_DM": 5,
+        "wounds": 2
+      },
+      "Cutlass": {
+        "plus_DM": 11,
+        "minus_DM": 7,
+        "wounds": 3
+      },
+      "Broadsword": {
+        "plus_DM": 12,
+        "minus_DM": 7,
+        "wounds": 4
+      },
+      "Bayonet": {
+        "plus_DM": 9,
+        "minus_DM": 4,
+        "wounds": 3
+      },
+      "Spear": {
+        "plus_DM": 9,
+        "minus_DM": 4,
+        "wounds": 2
+      },
+      "Halberd": {
+        "plus_DM": 10,
+        "minus_DM": 5,
+        "wounds": 3
+      },
+      "Pike": {
+        "plus_DM": 10,
+        "minus_DM": 6,
+        "wounds": 3
+      },
+      "Cudgel": {
+        "plus_DM": 8,
+        "minus_DM": 4,
+        "wounds": 2
+      }
+    },
+    "Guns": {
+      "Body Pistol": {
+        "plus_DM": 11,
+        "minus_DM": 7,
+        "wounds": 2
+      },
+      "Auto Pistol": {
+        "plus_DM": 10,
+        "minus_DM": 6,
+        "wounds": 3
+      },
+      "Revolver": {
+        "plus_DM": 9,
+        "minus_DM": 6,
+        "wounds": 3
+      },
+      "Carbine": {
+        "plus_DM": 9,
+        "minus_DM": 4,
+        "wounds": 3
+      },
+      "Rifle": {
+        "plus_DM": 8,
+        "minus_DM": 5,
+        "wounds": 3
+      },
+      "Auto Rifle": {
+        "plus_DM": 10,
+        "minus_DM": 6,
+        "wounds": 3
+      },
+      "Shotgun": {
+        "plus_DM": 9,
+        "minus_DM": 3,
+        "wounds": 4
+      },
+      "SMG": {
+        "plus_DM": 9,
+        "minus_DM": 6,
+        "wounds": 3
+      },
+      "Laser Carbine": {
+        "plus_DM": 10,
+        "minus_DM": 5,
+        "wounds": 4
+      },
+      "Laser Rifle": {
+        "plus_DM": 11,
+        "minus_DM": 6,
+        "wounds": 5
+      },
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Additional Weapons",
+  "data": {
+    "1": [
+      "Laser Rifle",
+      "Auto Rifle"
+    ],
+    "2": [
+      "Shotgun",
+      "Carbine",
+      "Revolver"
+    ],
+    "3": [
+      "Broadsword",
+      "Sword",
+      "Halberd",
+      "Cutlass",
+      "Foil"
+    ]
+  }
+}

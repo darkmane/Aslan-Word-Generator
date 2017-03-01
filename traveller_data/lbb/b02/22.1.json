@@ -1,0 +1,41 @@
+{
+  "title": "Standard Hulls",
+  "data": {
+    "100": {
+      "main": 85,
+      "drives": 15,
+      "cost_mcr": 2,
+      "time": 9
+    },
+    "200": {
+      "main": 185,
+      "drives": 15,
+      "cost_mcr": 8,
+      "time": 11
+    },
+    "400": {
+      "main": 350,
+      "drives": 50,
+      "cost_mcr": 16,
+      "time": 14
+    },
+    "500": {
+      "main": 515,
+      "drives": 85,
+      "cost_mcr": 48,
+      "time": 22
+    },
+    "800": {
+      "main": 635,
+      "drives": 165,
+      "cost_mcr": 80,
+      "time": 25
+    },
+    "1000": {
+      "main": 835,
+      "drives": 165,
+      "cost_mcr": 100,
+      "time": 27
+    }
+  }
+}

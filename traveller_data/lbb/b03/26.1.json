@@ -1,0 +1,192 @@
+{
+  "title": "Random Person Encounters",
+  "data": {
+    "11": {
+      "type": "Peasants",
+      "quantity": "1D",
+      "vehicle": false,
+      "weaponry": "Clubs and cudgels",
+    },
+    "12": {
+      "type": "Peasants",
+      "quantity": "2D",
+      "vehicle": false,
+      "weaponry": "Clubs and cudgels",
+    },
+    "13": {
+      "type": "Workers",
+      "quantity": "2D",
+      "vehicle": false,
+      "weaponry": "Clubs and cudgels",
+    },
+    "14": {
+      "type": "Rowdies",
+      "quantity": "3D",
+      "vehicle": false,
+      "weaponry": "Clubs and cudgels",
+    },
+    "15": {
+      "type": "Thugs",
+      "quantity": "2D",
+      "vehicle": false,
+      "weaponry": "Daggers",
+    },
+    "16": {
+      "type": "Riotous Mob",
+      "quantity": "4D",
+      "vehicle": false,
+      "weaponry": "Clubs and cudgels",
+    },
+    "21": {
+      "type": "Soldiers",
+      "quantity": "2D",
+      "vehicle": false,
+      "weaponry": "Rifles and bayonets",
+      "armor": "cloth"
+    },
+    "22": {
+      "type": "Soldiers",
+      "quantity": "2D",
+      "vehicle": true,
+      "weaponry": "Carbines",
+      "armor": "mesh"
+    },
+    "23": {
+      "type": "Police Patrol",
+      "quantity": "1D",
+      "vehicle": true,
+      "weaponry": "Automatic Pistols",
+      "armor": "cloth"
+    },
+    "24": {
+      "type": "Marines",
+      "quantity": "2D",
+      "vehicle": true,
+      "weaponry": "Revolvers and cutlasses",
+      "armor": "mesh"
+    },
+    "25": {
+      "type": "Naval Security Troops",
+      "quantity": "3D",
+      "vehicle": true,
+      "weaponry": "Carbines",
+    },
+    "26": {
+      "type": "Soldiers on Patrol",
+      "quantity": "2D",
+      "vehicle": true,
+      "weaponry": "SMG",
+      "armor": "jack"
+    },
+    "31": {
+      "type": "Adventurers",
+      "quantity": "1D",
+      "vehicle": false,
+      "weaponry": "Swords",
+    },
+    "32": {
+      "type": "Nobel with retinue",
+      "quantity": "2D",
+      "vehicle": false,
+      "weaponry": "Foils",
+    },
+    "33": {
+      "type": "Hunters and guides",
+      "quantity": "2D",
+      "vehicle": false,
+      "weaponry": "Rifles and Spears",
+      "armor": "jack"
+    },
+    "34": {
+      "type": "Tourists",
+      "quantity": "2D",
+      "vehicle": true,
+      "weaponry": "Cameras",
+    },
+    "35": {
+      "type": "Researchers",
+      "quantity": "2D",
+      "vehicle": true,
+    },
+    "36": {
+      "type": "Police Patrol",
+      "quantity": "1D",
+      "vehicle": true,
+      "weaponry": "Revolvers",
+    },
+    "41": {
+      "type": "Fugities",
+      "quantity": "1D",
+      "vehicle": false,
+      "weaponry": "Clubs and cudgels",
+    },
+    "42": {
+      "type": "Fugitives",
+      "quantity": "2D",
+      "vehicle": true,
+      "weaponry": "Blades",
+      "armor": "jack"
+    },
+    "43": {
+      "type": "Fugitives",
+      "quantity": "3D",
+      "vehicle": false,
+      "weaponry": "Revolvers",
+    },
+    "44": {
+      "type": "Vigilantes",
+      "quantity": "2D",
+      "vehicle": true,
+      "weaponry": "Rifles and Carbines",
+      "armor": "jack"
+    },
+    "45": {
+      "type": "Bandits",
+      "quantity": "3D",
+      "vehicle": false,
+      "weaponry": "Swords and Pistols",
+    },
+    "46": {
+      "type": "Ambushing Brigands",
+      "quantity": "3D",
+      "vehicle": false,
+      "weaponry": "Broadswrods and Pistols",
+      "armor": "cloth"
+    },
+    "51": {
+      "type": "Merchants and employees",
+      "quantity": "1D",
+      "vehicle": false,
+      "weaponry": "Daggers",
+    },
+    "52": {
+      "type": "Traders",
+      "quantity": "2D",
+      "vehicle": true,
+      "weaponry": "Blades",
+    },
+    "53": {
+      "type": "Religious Group",
+      "quantity": "2D",
+      "vehicle": false,
+    },
+    "54": {
+      "type": "Beggars",
+      "quantity": "1D",
+      "vehicle": false,
+    },
+    "55": {
+      "type": "Pilgrims",
+      "quantity": "5D",
+      "vehicle": false,
+      "armor": "jack"
+    },
+    "56": {
+      "type": "Guards",
+      "quantity": "3D",
+      "vehicle": false,
+      "weaponry": "Halberds and Daggers",
+      "armor": "jack"
+    },
+  }
+}

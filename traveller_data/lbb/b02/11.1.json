@@ -1,0 +1,55 @@
+{
+  "title": "Crew Salaries",
+  "data": {
+    "salaries": [
+      {
+        "position": "Pilot",
+        "skill": {
+          "skill": "pilot",
+          "level": 1
+        },
+        "salary": 6000
+      },
+      {
+        "position": "Navigator",
+        "skill": {
+          "skill": "navigator",
+          "level": 1
+        },
+        "salary": 5000
+      },
+      {
+        "position": "Engineer",
+        "skill": {
+          "skill": "engineer",
+          "level": 1
+        },
+        "salary": 4000
+      },
+      {
+        "position": "Steward",
+        "skill": {
+          "skill": "steward",
+          "level": 0
+        },
+        "salary": 3000
+      },
+      {
+        "position": "Medic",
+        "skill": {
+          "skill": "medic",
+          "level": 1
+        },
+        "salary": 2000
+      },
+      {
+        "position": "Gunner",
+        "skill": {
+          "skill": "gunner",
+          "level": 1
+        },
+        "salary": 1000
+      }
+    ]
+  }
+}

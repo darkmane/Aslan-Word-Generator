@@ -1,0 +1,56 @@
+{
+  "title": "Mustering Out Tables",
+  "data": {
+    "navy": [
+      "Low Passage",
+      "+1 Int",
+      "+2 Edu",
+      "Blade",
+      "TAS Membership",
+      "High Passage",
+      "+2 Soc"
+    ],
+    "marines": [
+      "Low Passage",
+      "+2 Int",
+      "+1 Edu",
+      "Blade",
+      "TAS Membership",
+      "High Passage",
+      "+2 Soc"
+    ],
+    "army": [
+      "Low Passage",
+      "+1 Int",
+      "+2 Edu",
+      "Gun",
+      "High Passage",
+      "Middle Passage",
+      "+1 Soc"
+    ],
+    "scouts": [
+      "Low Passage",
+      "+2 Int",
+      "+2 Edu",
+      "Blade",
+      "Gun",
+      "Scout Ship"
+    ],
+    "merchants": [
+      "Low Passage",
+      "+1 Int",
+      "+1 Edu",
+      "Gun",
+      "Blade",
+      "Low Passage",
+      "Free Trader"
+    ],
+    "other": [
+      "Low Passage",
+      "+1 Int",
+      "+1 Edu",
+      "Gun",
+      "High Passage"
+    ]
+  }
+}

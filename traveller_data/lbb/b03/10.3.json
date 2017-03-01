@@ -1,0 +1,20 @@
+{
+  "title": "Atmosphere",
+  "data": {
+    "atmosphere": [
+      "No atmosphere",
+      "Trace",
+      "Very thin, tainted",
+      "Very Thin",
+      "Thin, tainted",
+      "Thin",
+      "Standard",
+      "Standard, tainted",
+      "Dense",
+      "Dense, tainted",
+      "Exotic",
+      "Corrosive",
+      "Insidious"
+    ]
+  }
+}

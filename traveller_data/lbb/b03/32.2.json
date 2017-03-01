@@ -1,0 +1,26 @@
+{
+  "title": "Encounter Columns",
+  "data": {
+    "2D": {
+      "2": "Scavenger",
+      "3": "Omnivore",
+      "4": "Scavenger",
+      "5": "Omnivore",
+      "6": "Herbivore",
+      "7": "Herbivore",
+      "8": "Herbivore",
+      "9": "Carnivore",
+      "10": "Event",
+      "11": "Carnivore",
+      "12": "Carnivore"
+    },
+    "1D": [
+      "Scavenger",
+      "Herbivore",
+      "Herbivore",
+      "Herbivore",
+      "Omnivore",
+      "Carnivore"
+    ]
+  }
+}

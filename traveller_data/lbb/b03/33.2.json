@@ -1,0 +1,147 @@
+{
+  "title": "Animal Sizes and Weaponry",
+  "data": {
+    "table": [
+      {
+        "weight": 1,
+        "hits": "1D/0",
+        "wounds": "-2D",
+        "weapons": "hooves and horns",
+        "armor": "6"
+      },
+      {
+        "weight": 3,
+        "hits": "1D/1D",
+        "wounds": "-2D",
+        "weapons": "horns",
+        "armor": ""
+      },
+      {
+        "weight": 6,
+        "hits": "1D/2D",
+        "wounds": "-1D",
+        "weapons": "hooves and teeth",
+        "armor": ""
+      },
+      {
+        "weight": 12,
+        "hits": "2D/2D",
+        "wounds": null,
+        "weapons": "hooves",
+        "armor": "jack"
+      },
+      {
+        "weight": 25,
+        "hits": "3D/2D",
+        "wounds": null,
+        "weapons": "horns and teeth",
+        "armor": ""
+      },
+      {
+        "weight": 50,
+        "hits": "4D/2D",
+        "wounds": null,
+        "weapons": "thrasher",
+        "armor": ""
+      },
+      {
+        "weight": 100,
+        "hits": "5D/2D",
+        "wounds": null,
+        "weapons": "claws and teeth",
+        "armor": ""
+      },
+      {
+        "weight": 200,
+        "hits": "5D/3D",
+        "wounds": "+1D",
+        "weapons": "teeth",
+        "armor": ""
+      },
+      {
+        "weight": 400,
+        "hits": "6D/3D",
+        "wounds": "+2D",
+        "weapons": "claws",
+        "armor": ""
+      },
+      {
+        "weight": 800,
+        "hits": "7D/3D",
+        "wounds": "+3D",
+        "weapons": "claws",
+        "armor": "jack"
+      },
+      {
+        "weight": 1600,
+        "hits": "8D/3D",
+        "wounds": "+4D",
+        "weapons": "thrasher",
+        "armor": ""
+      },
+      {
+        "weight": 3200,
+        "hits": "8D/4D",
+        "wounds": "+5D",
+        "weapons": "claws and teeth",
+        "armor": "6"
+      },
+      {
+        "weight": "+6",
+        "hits": "+6",
+        "wounds": "+6",
+        "weapons": "claws+1",
+        "armor": "mesh+1"
+      },
+      {
+        "weight": 6000,
+        "hits": "9D/4D",
+        "wounds": "x2",
+        "weapons": "stinger",
+        "armor": "cloth+1"
+      },
+      {
+        "weight": 12000,
+        "hits": "10D/5D",
+        "wounds": "x2",
+        "weapons": "claws+1 and teeth+1",
+        "armor": "mesh"
+      },
+      {
+        "weight": 24000,
+        "hits": "12D/6D",
+        "wounds": "x3",
+        "weapons": "teeth+1",
+        "armor": "cloth"
+      },
+      {
+        "weight": 30000,
+        "hits": "14D/7D",
+        "wounds": "x4",
+        "weapons": "as blade",
+        "armor": "battle+4"
+      },
+      {
+        "weight": 36000,
+        "hits": "15D/7D",
+        "wounds": "x4",
+        "weapons": "as pike",
+        "armor": "reflec"
+      },
+      {
+        "weight": 40000,
+        "hits": "16D/8D",
+        "wounds": "x5",
+        "weapons": "as broadsword",
+        "armor": "ablat"
+      },
+      {
+        "weight": 44000,
+        "hits": "17D/9D",
+        "wounds": "x6",
+        "weapons": "as body pistol",
+        "armor": "battle"
+      }
+    ]
+  }
+}

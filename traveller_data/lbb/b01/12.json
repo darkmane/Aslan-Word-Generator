@@ -1,0 +1,16 @@
+{
+  "title": "Aging Table",
+  "data": {
+    "4": {"age": 34, "str": {"delta": -1, "roll": 8}, "dex": {"delta": -1, "roll": 7}, "end": {"delta": -1, "roll": 8}},
+    "5": {"age": 38, "str": {"delta": -1, "roll": 8}, "dex": {"delta": -1, "roll": 7}, "end": {"delta": -1, "roll": 8}},
+    "6": {"age": 42, "str": {"delta": -1, "roll": 8}, "dex": {"delta": -1, "roll": 7}, "end": {"delta": -1, "roll": 8}},
+    "7": {"age": 46, "str": {"delta": -1, "roll": 8}, "dex": {"delta": -1, "roll": 7}, "end": {"delta": -1, "roll": 8}},
+    "8": {"age": 50, "str": {"delta": -1, "roll": 9}, "dex": {"delta": -1, "roll": 8}, "end": {"delta": -1, "roll": 9}},
+    "9": {"age": 54, "str": {"delta": -1, "roll": 9}, "dex": {"delta": -1, "roll": 8}, "end": {"delta": -1, "roll": 9}},
+    "10": {"age": 58, "str": {"delta": -1, "roll": 9}, "dex": {"delta": -1, "roll": 8}, "end": {"delta": -1, "roll": 9}},
+    "11": {"age": 62, "str": {"delta": -1, "roll": 9}, "dex": {"delta": -1, "roll": 8}, "end": {"delta": -1, "roll": 9}},
+    "12": {"age": 66, "str": {"delta": -2, "roll": 9}, "dex": {"delta": -2, "roll": 9}, "end": {"delta": -2, "roll": 9}, "int": {"delta": -1, "roll": 9}},
+    "13": {"age": 70, "str": {"delta": -2, "roll": 9}, "dex": {"delta": -2, "roll": 9}, "end": {"delta": -2, "roll": 9}, "int": {"delta": -1, "roll": 9}},
+    "14": {"age": 74, "str": {"delta": -2, "roll": 9}, "dex": {"delta": -2, "roll": 9}, "end": {"delta": -2, "roll": 9}, "int": {"delta": -1, "roll": 9}}
+  }
+}

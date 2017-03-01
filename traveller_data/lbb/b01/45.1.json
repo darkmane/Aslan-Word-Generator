@@ -1,0 +1,96 @@
+{
+  "title": "Weapons Table (melee)",
+  "data": {
+    "hands": {
+      "required_str": 6,
+      "required_str_dm": -2,
+      "advantageous_str": 9,
+      "advantageous_s tr_dm": 1,
+      "weakened_blow_dm": -2
+    },
+    "club": {
+      "required_str": 5,
+      "required_str_dm": -4,
+      "advantageous_str": 8,
+      "advantageous_str_dm": 2,
+      "weakened_blow_dm": -1
+    },
+    "dagger": {
+      "required_str": 4,
+      "required_str_dm": -2,
+      "advantageous_str": 8,
+      "advantageous_str_dm": 2,
+      "weakened_blow_dm": -2
+    },
+    "blade": {
+      "required_str": 5,
+      "required_str_dm": -2,
+      "advantageous_str": 9,
+      "advantageous_str_dm": 1,
+      "weakened_blow_dm": -2
+    },
+    "foil": {
+      "required_str": 5,
+      "required_str_dm": -1,
+      "advantageous_str": 10,
+      "advantageous_str_dm": 1,
+      "weakened_blow_dm": -2
+    },
+    "cutlass": {
+      "required_str": 7,
+      "required_str_dm": -2,
+      "advantageous_str": 11,
+      "advantageous_str_dm": 2,
+      "weakened_blow_dm": -4
+    },
+    "sword": {
+      "required_str": 6,
+      "required_str_dm": -2,
+      "advantageous_str": 10,
+      "advantageous_str_dm": 1,
+      "weakened_blow_dm": -3
+    },
+    "broadsword": {
+      "required_str": 8,
+      "required_str_dm": -4,
+      "advantageous_str": 12,
+      "advantageous_str_dm": 2,
+      "weakened_blow_dm": -4
+    },
+    "bayonet": {
+      "required_str": 5,
+      "required_str_dm": -2,
+      "advantageous_str": 9,
+      "advantageous_str_dm": 2,
+      "weakened_blow_dm": -2
+    },
+    "spear": {
+      "required_str": 5,
+      "required_str_dm": -1,
+      "advantageous_str": 9,
+      "advantageous_str_dm": 2,
+      "weakened_blow_dm": -3
+    },
+    "halberd": {
+      "required_str": 6,
+      "required_str_dm": -2,
+      "advantageous_str": 10,
+      "advantageous_str_dm": 2,
+      "weakened_blow_dm": -3
+    },
+    "pike": {
+      "required_str": 7,
+      "required_str_dm": -3,
+      "advantageous_str": 10,
+      "advantageous_str_dm": 2,
+      "weakened_blow_dm": -3
+    },
+    "cudgel": {
+      "required_str": 5,
+      "required_str_dm": -1,
+      "advantageous_str": 8,
+      "advantageous_str_dm": 2,
+      "weakened_blow_dm": -1
+    }
+  }
+}

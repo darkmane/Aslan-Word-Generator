@@ -1,0 +1,47 @@
+{
+  "title": "Computer Software List",
+  "data":{
+    "offensive":[
+      {"storage":1,"cost":2.0,"title":"Predict-1","skill":"Nav-1", "throw":10},
+      {"storage":2,"cost":4.0,"title":"Predict-2","skill":"Nav-2", "throw":10},
+      {"storage":1,"cost":6.0,"title":"Predict-3","skill":"Nav-3", "throw":10},
+      {"storage":3,"cost":8.0,"title":"Predict-4","skill":"Nav-4", "throw":11},
+      {"storage":2,"cost":10.0,"title":"Predict-5","skill":"Nav-5", "throw":10},
+      {"storage":1,"cost":1.0,"title":"Gunner Interact","skill":"Gun-2", "throw":11},
+      {"storage":1,"cost":1.0,"title":"Target","skill":"Nav-2", "throw":10},
+      {"storage":1,"cost":0.5,"title":"Select-1","skill":"Gun-2", "throw":9},
+      {"storage":2,"cost":0.8,"title":"Select-2","skill":"Gun-3", "throw":9},
+      {"storage":1,"cost":1.0,"title":"Select-3","skill":"Gun-4", "throw":9},
+      {"storage":1,"cost":1.0,"title":"Multi Target-2","skill":"Gun-2", "throw":9},
+      {"storage":2,"cost":2.0,"title":"Multi Target-3","skill":"Gun-3", "throw":10},
+      {"storage":4,"cost":3.0,"title":"Multi Target-4","skill":"Gun-4", "throw":8},
+      {"storage":1,"cost":2.0,"title":"Launch","skill":"Gun-2", "throw":11},
+      {"storage":4,"cost":4.0,"title":"Double Fire","skill":"Eng-2", "throw":11}
+    ],
+    "defensive":[
+      {"storage":1,"cost":1.0,"title":"Manuever/Evade-1","skill":"Pilot-2", "throw":10},
+      {"storage":2,"cost":2.0,"title":"Manuever/Evade-2","skill":"Pilot-3", "throw":11},
+      {"storage":3,"cost":3.0,"title":"Manuever/Evade-3","skill":"Pilot-4", "throw":10},
+      {"storage":4,"cost":4.0,"title":"Manuever/Evade-4","skill":"Pilot-5", "throw":11},
+      {"storage":2,"cost":5.0,"title":"Manuever/Evade-5","skill":"Pilot-6", "throw":10},
+      {"storage":3,"cost":6.0,"title":"Manuever/Evade-6","skill":"Pilot-7", "throw":11},
+      {"storage":1,"cost":0.5,"title":"Auto/Evade","skill":"Pilot-4", "throw":11},
+      {"storage":1,"cost":0.5,"title":"Return Fire","skill":"Gun-3", "throw":12},
+      {"storage":2,"cost":1.0,"title":"Anti-Missile","skill":"Gun-3", "throw":10},
+      {"storage":3,"cost":4.0,"title":"ECM","skill":"Elect-3", "throw":9}
+    ],
+    "routine":[
+      {"storage":1,"cost":0.1,"title":"Manuever","skill":"Pilot-1", "throw":9},
+      {"storage":1,"cost":0.1,"title":"Jump-1","skill":"Pilot/Nav-1", "throw":10},
+      {"storage":2,"cost":0.3,"title":"Jump-2","skill":"Pilot/Nav-2", "throw":11},
+      {"storage":3,"cost":0.4,"title":"Jump-3","skill":"Pilot/Nav-3", "throw":12},
+      {"storage":4,"cost":0.5,"title":"Jump-4","skill":"Pilot/Nav-4", "throw":11},
+      {"storage":5,"cost":0.6,"title":"Jump-5","skill":"Pilot/Nav-5", "throw":12},
+      {"storage":6,"cost":0.7,"title":"Jump-6","skill":"Pilot/Nav-6", "throw":11},
+      {"storage":1,"cost":0.4,"title":"Navigation","skill":"Nav-3", "throw":10},
+      {"storage":1,"cost":0.8,"title":"Generate","skill":"Nav-4", "throw":9},
+      {"storage":1,"cost":0.1,"title":"Anti-Hijack","skill":"Tactics-1", "throw":4},
+      {"storage":1,"cost":0.3,"title":"Library", "throw":4}
+    ]
+  }
+}
