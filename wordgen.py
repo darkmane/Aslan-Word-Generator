@@ -22,6 +22,13 @@ count=0
 con=""
 tag=0
 filename="default"
+inp = input
+
+if sys.version_info[0] == 2:
+    inp = raw_input
+
+
+
 
 PATH="traveller_data/lbb/%s"
 ASLAN="am1/27.json"
@@ -121,7 +128,7 @@ class WordGenTable:
 def yn():
 	query = 1
 	while query == 1:
-		answer = input("Y/N: ")
+		answer = inp("Y/N: ")
 		if answer in ["y", "Y"]:
 			return "y"
 			query = 0
@@ -133,8 +140,8 @@ def yn():
 	
 #File-saving function
 def savefile():
-	filename=str(input("Please enter file name to generate: "))
-	directory=os.listdir(".\\") #Check if file already exists
+	filename=str(inp("Please enter file name to generate: "))
+	directory=os.listdir(".") #Check if file already exists
 	save=1
 	filecheck=filename+".txt"
 	if filecheck in directory: #Overwrite query
@@ -146,7 +153,7 @@ def savefile():
 				save=0
 				break
 			if overwrite == "n":
-				filename=input("Please enter new file name to generate: ")
+				filename=inp("Please enter new file name to generate: ")
 	return filename #Output: file name
 
 def interactive():
@@ -154,7 +161,7 @@ def interactive():
     #New program body from 2017
     menu=1
     while menu == 1: #Program will always return to the menu unless exited
-        os.system('cls')
+        
         print ("")
         print ("Welcome to the Traveller Word Generator v1.0")
         print ("Current Language: " + word_gen_table.language())
@@ -167,14 +174,14 @@ def interactive():
         print ("5 - About")
         print ("6 - Exit Program")
         print ("========================================")
-        choice=input("Please enter your choice: ")
+        choice=inp("Please enter your choice: ")
         try:
             choice = int(choice)
         except Exception:
             print ("")
             print("Invalid Input")
             print ("")
-            next
+            continue
 
         if choice < 1 or choice > 6: #Upon inappropriate input
             print ("")
@@ -185,32 +192,37 @@ def interactive():
             print(word_gen_table.generate_word())
             print ("")
             print ("Press any key to continue")
-            input()
+            a = inp()
+            next
         if choice == 2: #Generate multiple words
             print ("")
-            num=int(input("Please enter the number of words you wish to generate: "))
+            num=int(inp("Please enter the number of words you wish to generate: "))
             print ("")
-            while num >= count:
+            count = 0
+            while num > count:
                 print(word_gen_table.generate_word())
-                count=count+1
+                count += 1
             print ("")
             print ("Press any key to continue")
-            input()
+            a = inp()
+            next
         if choice == 3: #Generate multiple worlds to a file
             name=savefile()
             outp=open(name + ".txt","w")
-            num=int(input("Please enter the number of words you wish to generate: "))
-            while num >= count:
+            num=int(inp("Please enter the number of words you wish to generate: "))
+            count = 0
+            while num > count:
                 word= word_gen_table.generate_word()
                 outp.write(word+'\r\n')
-                count=count+1
+                count += 1
                 word=""
             outp.close()
             print ("")
             print ("File generated.")
             print ("")
             print ("Press any key to continue")
-            input()
+            a = inp()
+            next
         if choice == 4:
             print ("")
             print ("Welcome to the Traveller Word Generator v1.3")
@@ -223,7 +235,7 @@ def interactive():
             print ("5 - Generate Droyne words")
             print ("6 - Generate Darrian words")
             print ("========================================")
-            choice2 = input()
+            choice2 = inp()
             try:
                 choice2 = int(choice2)
             except Exception:
@@ -232,15 +244,15 @@ def interactive():
                 print ("")
 
             word_gen_table = WordGenTable(LANGUAGE_LIST[choice2 - 1])            
+            next
 
-
-            
         if choice == 5: #Displays program information
             print ("")
             print("Word Generation for Classic Traveller")
             print("v1.3, February 27, 2017")
             print("This is open source code, feel free to use it for any purpose")
             print("contact the author at golan2072@gmail.com")
+            next
         if choice == 6: #exit
             menu=0
             break
